@@ -10,6 +10,8 @@ file.eachLine { line ->
     art = "citeulike:${line}"
   } else if (line.contains("doi =")) {
     line = line.replace("    doi = {", "").replace("},", "").toUpperCase()
+    line = line.replace("\\%", "%")
+    line = line.replace("\\_", "_")
     println "${art} wdt:P356 \"${line}\" ."
     art = ""
   }
