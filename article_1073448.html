@@ -1,0 +1,2097 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cito="http://purl.org/net/cito/">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app221.us.archive.org';v.server_ms=266;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=MzYkZ0TU" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.citeulike.org/user/egonw/article/1073448","20170423181248","https://web.archive.org/","web","/_static/",
+	      "1492971168");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>CiteULike: Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!--[if lt IE 10]>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, chrome=1" />
+<![endif]-->
+
+<meta name="application-name" content="CiteULike"/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta name="msapplication-TileImage" content="/static/img/win8TileImage.jpg"/>
+<meta name="description" content="C. Steinbeck, C. Hoppe, S. Kuhn, M. Floris, R. Guha, E. L. Willighagen. Current pharmaceutical design, Vol. 12, No. 17. (2006), pp. 2111-2120, doi:10.2174/138161206777585274. The Chemistry Development Kit (CDK) provides methods for common tasks in molecular informatics, including 2D and 3D rendering of chemical structures, I/O routines, SMILES parsing and generation, ring searches, isomorphism checking, structure diagram generation, etc. Implemented in Java, it is used both for server-side computational services, possibly equipped with a web interface, as well as for applications and client-side applets. This article introduces the CDK\'s new QSAR capabilities and the recently introduced interface to statistical software. cheminformatics java opensource papers"/>
+<meta property="dc:title" content="Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics."/>
+<meta property="dc:creator" content="C. Steinbeck"/>
+<meta property="dc:creator" content="C. Hoppe"/>
+<meta property="dc:creator" content="S. Kuhn"/>
+<meta property="dc:creator" content="M. Floris"/>
+<meta property="dc:creator" content="R. Guha"/>
+<meta property="dc:creator" content="E. L. Willighagen"/>
+<meta property="dc:identifier" content="10.2174/138161206777585274"/>
+<meta property="dc:source" content="Current pharmaceutical design, Vol. 12, No. 17. (2006), pp. 2111-2120, doi:10.2174/138161206777585274"/>
+<meta property="dc:date" content="2007-06-09T08:28:49-00:00"/>
+<meta property="prism:publicationYear" content="2006"/>
+<meta property="prism:publicationName" content="Current pharmaceutical design"/>
+<meta property="prism:issn" content="1381-6128"/>
+<meta property="prism:volume" content="12"/>
+<meta property="prism:number" content="17"/>
+<meta property="prism:startingPage" content="2111"/>
+<meta property="prism:endingPage" content="2120"/>
+<meta property="cito:extends" content="http://www.citeulike.org/article/423382"/>
+<meta property="cito:cites" content="http://www.citeulike.org/article/1375511"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9388670"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9571737"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10136356"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10089821"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10136546"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10065703"/>
+<meta property="cito:isDiscussedBy" content="http://www.citeulike.org/article/8485499"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/9436151"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9477705"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8736519"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9031470"/>
+<meta property="cito:isExtendedBy" content="http://www.citeulike.org/article/8530538"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8295239"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10010813"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10180097"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8049323"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8247021"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/7887075"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887076"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887078"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887084"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887096"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887103"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887106"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887107"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887108"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898154"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898155"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898156"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898157"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898158"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887117"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7887119"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898130"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898131"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898132"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898133"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898134"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898135"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898136"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898137"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898138"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898139"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898141"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898142"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898143"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898144"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898145"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898146"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898147"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898148"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898149"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898150"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898151"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898152"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7898153"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/5403808"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/7818654"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/5441072"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/6926159"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/1117873"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/5722751"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/6297196"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/8462271"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/7110609"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8982298"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/8864821"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9178745"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9580436"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/9083435"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/9266894"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9351398"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9351393"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9476607"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9519546"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/9349185"/>
+<meta property="cito:isCitedByAsRelated" content="http://www.citeulike.org/article/9609923"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/8462873"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10678103"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9701137"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/9485312"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9849008"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/10185866"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10320156"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/10479111"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10389681"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10392504"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9306014"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/9905438"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/9905489"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10492609"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10616392"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/10685425"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10705433"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/10730874"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10851659"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10887338"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/10874754"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/10895971"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11005435"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11060169"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11067994"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11183984"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11184031"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11289757"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11486358"/>
+<meta property="cito:isCitedByAsRelated" content="http://www.citeulike.org/article/11275814"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11863925"/>
+<meta property="cito:isCitedAsAuthorityBy" content="http://www.citeulike.org/article/11864040"/>
+<meta property="cito:isCitedBy" content="http://www.citeulike.org/article/11864183"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11852561"/>
+<meta property="cito:isExtendedBy" content="http://www.citeulike.org/article/11895542"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/12637065"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/12654418"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/12623944"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/12805970"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/12742448"/>
+<meta property="cito:isCitedForInformationBy" content="http://www.citeulike.org/article/11962023"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11533825"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11961460"/>
+<meta property="cito:isCitedForInformationBy" content="http://www.citeulike.org/article/12805951"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/11864222"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/13142074"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/13709005"/>
+<meta property="cito:definesMethodUsedBy" content="http://www.citeulike.org/article/13887155"/>
+
+
+<!--css_include href="/3rdparty/960css/text.css"-->
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/jquery-ui/css/mytheme/jquery-ui-1.10.0.custom.0f3881b01346c34bc01df4f24349cec7.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/3rdparty/tipsy-0.1.7/stylesheets/tipsy.b5d47844a5d90d83e958c3ea16293144.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/3rdparty/jQuery/stars/jquery.ui.stars.7f0f889a94c6c8243eeab2ac5a82cf2b.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/3rdparty/jQuery/fancybox-1.3.4/jquery.fancybox-1.3.4.4638ce99ef00cf62bfb22d230f9924b8.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/3rdparty/jQuery/qtip-2.0-nightly-d41d8cd98f00b204e9800998ecf8427e1305549174/jquery.qtip.f2ac3f4fda056b336f27062c09672ea8.css"/>
+
+<link rel="stylesheet" type="text/css" media="all" href="/web/20170423181248cs_/http://www.citeulike.org/static/citeulike.min.608f5b00572e9e9d21bac281ce3ba650.css"/>
+
+
+<!--link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" /-->
+<link rel="stylesheet" type="text/css" href="//web.archive.org/web/20170423181248cs_/http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css"/>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE]>
+<style type="text/css">
+/* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+
+/**<FANCYBOX>*******************************************************************/
+/* bug/feature http://groups.google.com/group/fancybox/browse_thread/thread/8530478044b9f586#
+ AlphaImageLoader loads relative to DOCUMENT
+*/
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_close.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_nav_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_nav_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_title_over.png', sizingMethod='scale'); zoom: 1; }
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_title_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_title_main.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_title_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+	height: expression(this.parentNode.clientHeight + "px");
+}
+
+#fancybox-loading.fancybox-ie6 {
+	position: absolute; margin-top: 0;
+	top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : do
+cument.body.scrollTop )) + 'px');
+}
+
+#fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_loading.png', sizingMethod='scale'); }
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_n.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_ne.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_e.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_se.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_s.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_sw.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_w.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/3rdparty/jQuery/fancybox-1.3.1//fancy_shadow_nw.png', sizingMethod='scale'); }
+
+img.pngfix { behavior: url(/static/img/iepngfix.htc) }
+
+</style>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+/*
+	Try to fool phishers/proxies, e.g.,
+
+		http://jptaravellahighschool.appspot.com/www.citeulike.org/
+
+	by checking for unexpected hostname.
+*/
+//var baseurl = "https://web.archive.org/web/20170423181248/http://www.citeulike.org";
+//var hostname = baseurl.replace(/^http(s?):\/\//,"").replace(/\//g,"").replace(/:\d+/,"");
+
+// This messes up with SSL - for some reason nginx redirects
+// https://citeulike.org/ -> https://www.citeulike.org/
+// don't work.
+/*
+if (document.location.hostname != hostname) {
+	document.location = baseurl;
+}
+*/
+
+
+var LOG = function(s) {};
+var ERROR = function(e) {};
+var STACKTRACE = function(e) {};
+
+
+document.domain = "citeulike.org";
+
+var __init__ = [];
+
+var GLOBAL = {
+	staticRoot       : "/static",
+	imgRoot          : "/static/img",
+	jsRoot           : "/static",
+	cookieDomain     : ".citeulike.org",
+	username         : "",
+	can_show_ctxmenu : 1,
+	is_gold_user     : 0,
+	is_superuser     : 0,
+	flexpaper_key    : "$3db04a2de2248caa878",
+	is_me            : 0,
+	is_owner         : 0,
+	library_type	 : "user",
+	show_tags_nav    : 1
+};
+
+
+var ADVERTS = [{"name":"jove-feb11","height":"160","ext":"jpg"}];
+
+var facebookAppId = '118594761528526';
+var loginType = "none";
+
+
+//]]>
+</script>
+
+
+<script src="//web.archive.org/web/20170423181248js_/http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//web.archive.org/web/20170423181248js_/http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+<script src="//web.archive.org/web/20170423181248js_/http://code.jquery.com/jquery-migrate-1.2.0.min.js"></script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://web.archive.org/web/20170423181248/http://www.citeulike.org/rss/user/egonw/article/1073448"/>
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/COMBO.eaffe8f70f6e1081f062920b0896207c.js"></script>
+
+
+
+
+<!-- custom JS -->
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/js/head.bf53eebaf526ec9542046a35d1000a8b.js"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+try {
+	GLOBAL.prefs = null;
+} catch (err) {
+	LOG("Problem processing prefs");
+	LOG(err);
+	STACKTRACE({e: err});
+	GLOBAL.prefs = null;
+}
+
+
+GLOBAL.quickLinks = getJsonPref("quick_links");
+
+jQuery(function() {
+	for (var i=0; i<__init__.length; i++) { // >
+		LOG("Initializing: "+__init__[i].name);
+		__init__[i].func();
+	}
+});
+
+//]]>
+</script>
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var GOOGLE_AC = 'UA-55349-1';
+
+//]]>
+</script>
+
+
+
+
+
+
+
+	<style type="text/css">
+		#navright {
+			top: 122px;
+		}
+	</style>
+
+
+
+</head>
+
+<body class="container"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20170423181248/http%3A//www.citeulike.org/user/egonw/article/1073448"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.citeulike.org/user/egonw/article/1073448" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20170423181248" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+		<div class="s" id="wm-nav-captures" style="flex:1;">
+	  	  <a class="t" href="/web/20170423181248*/http://www.citeulike.org/user/egonw/article/1073448" title="See a list of every capture for this URL">4 captures</a>
+	  <div class="r" title="Timespan for captures of this URL">04 Apr 2016 - 22 Jan 2022</div>
+	  </div>
+	<div class="k">
+	  <a href="" id="wm-graph-anchor">
+	    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+	      <canvas id="wm-sparkline-canvas" width="675" height="27" border="0"></canvas>
+	    </div>
+	  </a>
+	</div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+	<tbody>
+	  <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+	  <tr class="m">
+	    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160404230714/http://www.citeulike.org/user/egonw/article/1073448" title="04 Apr 2016"><strong>Apr</strong></a></td>
+	    <td class="c" id="displayMonthEl" title="You are here: 18:12:48 Apr 23, 2017">APR</td>
+	    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220122003606/http://www.citeulike.org/user/egonw/article/1073448" title="22 Jan 2022"><strong>Jan</strong></a></td>
+	  </tr>
+	  <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+	  <tr class="d">
+	    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160404230714/http://www.citeulike.org/user/egonw/article/1073448" title="23:07:14 Apr 04, 2016"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+	    <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 18:12:48 Apr 23, 2017">23</td>
+	    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220122003606/http://www.citeulike.org/user/egonw/article/1073448" title="00:36:06 Jan 22, 2022"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+	  </tr>
+	  <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+	  <tr class="y">
+	    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160404230714/http://www.citeulike.org/user/egonw/article/1073448" title="04 Apr 2016"><strong>2016</strong></a></td>
+	    <td class="c" id="displayYearEl" title="You are here: 18:12:48 Apr 23, 2017">2017</td>
+	    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20220122003606/http://www.citeulike.org/user/egonw/article/1073448" title="22 Jan 2022"><strong>2022</strong></a></td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+        	<span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+	</span>
+        	<a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20170423181248/http://web.archive.org/screenshot/http://www.citeulike.org/user/egonw/article/1073448"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+	<a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20170423181248/http://www.citeulike.org/user/egonw/article/1073448" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20170423181248/http://www.citeulike.org/user/egonw/article/1073448" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+	<a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/webwidecrawl);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/webwidecrawl" target="_new"><span class="wm-title">Internet Archive</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  The Internet Archive discovers and captures web pages through many different web crawls.
+
+At any given time several distinct crawls are running, some for months, and some every day or longer.
+
+View the web archive through the <a href="http://archive.org/web/web.php">Wayback Machine</a>.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wide00015)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wide00015" target="_new"><span class="wm-title">Wide Crawl Number 15: Started Oct 1st, 2016 - Ended May 8th, 2017</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Web wide crawl.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20170423181248/http://www.citeulike.org/user/egonw/article/1073448</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(675,27,25,2,"web","http://www.citeulike.org/user/egonw/article/1073448","20170423181248",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<div id="fb-root"></div>
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/js/facebook.b1bb332a8746c16cfd974e178aa038e7.js"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var GOOGLE_AC = 'UA-55349-1';
+
+//]]>
+</script>
+
+
+
+
+			<script type="text/javascript">//<![CDATA[
+
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', GOOGLE_AC]);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20170423181248/https://ssl' : 'https://web.archive.org/web/20170423181248/http://www') + '.google-analytics.com/ga.js';
+			    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+			  })();
+
+			//]]></script>
+		
+
+
+
+<div id="dialog" title="Search CiteULike" style="display:none">
+	<form action="/web/20170423181248/http://www.citeulike.org/search/all" id="search_form" onsubmit="return submit_search()">
+		<input type="text" name="q" id="q" class="ui-widget-content ui-corner-all" style="width:90%; display:block" value="" placeholder="Enter search term"/>
+	<div>
+	Search all the public and <a id="search-hint" class="tipsy-hint-n" href="#" title="These are articles that CiteULike has directly imported from approved sources, e.g., publishers' websites, rather than manually entered.">authenticated</a>
+		articles in CiteULike.
+	<br/><input type="checkbox" id="srch_unch" name="unch" value="yes" class="search" onchange="setSearchUnchecked()"/><label for="srch_unch">Include unauthenticated results too (may include "spam")</label>
+
+	<br/><br/>Enter a search phrase.   You can also specify
+		<div style="margin-left:1em">
+			<div>a CiteULike article id (<i>123456</i>),</div>
+			<div>a DOI (<i>doi:10.1234/12345678</i>)</div>
+			<div>or a PubMed ID (<i>pmid:12345678</i>).</div>
+		</div>
+
+
+	<br/> Click <a style="text-decoration:none" href="#" onclick="show_search_help(); return false;">Help</a> for advanced usage.
+	</div>
+	</form>
+
+</div>
+
+
+
+		<div style="position:absolute; top: 5px; left: 20px; padding: 0px; z-index:100; margin-bottom:50px">
+			<div class="logo">
+				<img src="/web/20170423181248im_/http://www.citeulike.org/static/img/slogo-med.png" style="cursor:pointer" onclick="document.location.href='/home'" alt="CiteULike" title="Home"/>
+			</div>
+		</div>
+		<div style="height:50px">&nbsp;</div>
+		
+
+
+
+<div style="height:34px; width:1px"></div>
+<div class="topright" id="topright">
+
+
+		<a onclick="javascript:urchinTracker('/adclick/deepdyve');" href="/web/20170423181248/http://www.citeulike.org/adclick?campaign=deepdyve"><img src="/web/20170423181248im_/http://www.citeulike.org/static/campaigns/deepdyve.jpg" style="cursor:pointer; width:468px; height:60px;"></a>		
+	
+</div>
+
+
+
+
+
+<table class="menu leftindent">
+	<tr>
+		<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/lhs.png"/></td>
+		<td id="cul-menu" class="item" style="cursor:default"><span class="cultxt">CiteULike</span></td>
+		<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/bar.png"/></td>
+
+		<!--td id="other-cul-menu" class="item" >egonw's <img class="culimg" style="border:0; display:none; vertical-align:-50%" src="/static/img/cul-logo-small.png" /><span class="cultxt">CiteULike</span></td-->
+		<td id="other-cul-menu" class="item"><span class="cultxt">egonw's CiteULike</span></td>
+		<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/bar.png"/></td>
+	
+
+		<td class="filler"></td>
+
+	<td id="quicklinks"><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/bar.png"/></td>
+	<td class="item">
+		<img style="vertical-align:middle" src="/web/20170423181248im_/http://www.citeulike.org/static/img/search-icon.png"/><a href="#" onclick="search_modal(); return false">Search</a>
+	</td>
+	<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/bar.png"/></td>
+
+
+		<td class="item">
+			<a href="/web/20170423181248/http://www.citeulike.org/register">Register</a>
+		</td>
+		<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/bar.png"/></td>
+		<td class="item">
+			<a accesskey="l" href="/web/20170423181248/http://www.citeulike.org/login?from=%2fuser%2fegonw%2farticle%2f1073448">Log in</a>
+		</td>
+	
+
+		<td><img src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/rhs.png"/></td>
+	</tr>
+</table>
+
+<div style="height:9px; zindex:0"></div>
+
+<div style="display:none" id="doc">
+
+<div id="citeulike">
+<div class="xmegamenu">
+	<div class="column">
+		<ul>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/">Home</a></li>
+			
+			<li><a href="/web/20170423181248/http://www.citeulike.org/citegeist">Citegeist</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/all">Everyone's Library</a></li>
+
+
+		</ul>
+	</div>
+	<div class="column">
+		<ul>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/groups/browse">Browse Groups</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/groups/search/go">Search Groups</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/journals">Journals</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/profile_get_research_area_table">Research Fields</a><sup style="color:red">NEW</sup>
+			</li>
+		</ul>
+	</div>
+	<div class="column">
+		<ul>
+			<li><a href="https://web.archive.org/web/20170423181248/http://wiki.citeulike.org/">Help/FAQ</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/discussion">Discussion</a></li>
+
+			<li><a href="/web/20170423181248/http://www.citeulike.org/gold" class="golduser"><b>Gold</b></a></li>
+	
+
+
+			<li><a href="/web/20170423181248/http://www.citeulike.org/contact_us.adp">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	defineMenu("#cul-menu", "#citeulike");
+</script>
+
+
+
+<div id="other-citeulike">
+<div class="xmegamenu">
+	<div class="column">
+		<ul>
+
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw">Library</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw/order/to_read">Unread</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/search/user/egonw">Search</a><img style="vertical-align:-3px" src="/web/20170423181248im_/http://www.citeulike.org/static/img/search-icon.png"/></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw/authors">Authors</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw/tags">Tags</a></li>
+
+			<li><a href="/web/20170423181248/http://www.citeulike.org/profile/egonw/export">Export</a></li>
+	
+
+		</ul>
+	</div>
+
+
+
+	<div class="column">
+		<ul>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/profile/egonw">Profile</a></li>
+			
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw/publications">Publications</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/blog/egonw">Blog</a></li>
+		</ul>
+	</div>
+
+	<div class="column">
+		<ul>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/profile/egonw/groups">Groups</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/connections/egonw">Connections</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/profile/egonw/recommendations">Recommendations</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/neighbour/list/egonw">Neighbours</a></li>
+			<li><a href="/web/20170423181248/http://www.citeulike.org/user/egonw/watchlist">Watchlist</a></li>
+
+		</ul>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	defineMenu("#other-cul-menu", "#other-citeulike");
+	if (GLOBAL.can_show_ctxmenu) {
+		jQuery("#edit_context_menu").show();
+	}
+</script>
+
+
+</div>
+<!-- pre-load image to avoid delay-->
+<img style="display:none" src="/web/20170423181248im_/http://www.citeulike.org/static/img/menu/body-hi.png"/>
+<!-- end menus -->
+
+
+<div id="navleft">
+	<div class="campaigns" id="campaigns_div"></div>
+
+		<div id="aqnowledge_main">
+			<div id="aqnowledge_inner">
+			<h3>Related Products</h3>
+			<p>We have identified the following relevant lab reagents.</p>
+			<div id="aqnowledge_data">
+				<div id="aq_stub" style="display:none">
+					<div>
+						<div class="aq-name"><a class="aq-link" href="#"></a></div>
+					</div>
+				</div>
+			</div>
+			<div id="aq-more"><a href="#">More...</a></div>
+			<div class="aqfaint">Brought to you by <a href="https://web.archive.org/web/20170423181248/http://aqnowledge.com/">AQnowledge</a>, precision products for scientists</div>
+			</div>
+		</div>
+	
+
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-4762058803856771";
+		/* Head 160x600, wide skyscaper */
+		google_ad_slot = "3412285308";
+		google_ad_width = 160;
+		google_ad_height = 600;
+		//-->
+		</script>
+		<script type="text/javascript" src="https://web.archive.org/web/20170423181248js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	
+
+</div> <!-- Navleft -->
+
+
+
+<div id="cookie_terms">
+	<span id="accept_cookie_terms" class="accept_cookie_terms">x</span>
+	<p>CiteULike uses cookies, some of which may already have been set.
+	<a href="/web/20170423181248/http://www.citeulike.org/cookie-policy.adp" target="_blank">Read about how we use cookies</a>.</p>
+	<p>We will interpret your continued use of this site as
+	your acceptance of our use of cookies. You may
+	<span class="accept_cookie_terms accept_cookie_terms_link">hide</span> this message.</p>
+</div>
+
+
+<div style="background-color: #FFC; border: 1px solid black; padding: 0.5em" class="contentmain">
+		<div><b>CiteULike is a free online bibliography manager. <a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/register">Register</a>
+		and you can start organising your references online.</b></div>
+		</div>
+<div id="maindiv" class="contentonly no-top-border">
+
+		<div id="tagbutton">Tags</div>
+	
+
+
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/js/tag-editing.b1604806eb8efdd84dfa61122c7e02f0.js"></script>
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/3rdparty/swfobject.892a543f3abb54e8ec1ada55be3b0649.js"></script>
+
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/ARTICLE-PACK.min.2ae17ba14bfe41ec5af4e7a4e372dd5a.js"></script>
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var ARTICLE = {
+		user_article_id : "805678",
+		article_id      : "1073448",
+		url_stem        : "/user/egonw",
+		username        : "egonw",
+		group_id        : "",
+		is_owner	    : 0,
+		user_id         : "31191",
+		aq_base_url     : "https://web.archive.org/web/20170423181248/http://utopia.cs.man.ac.uk/aq/text-mining-0.0.9/jersey/jsonp/products?user=citeulike&"
+	};
+	// N.B. ARTICLE .doi & is_springerimages defined later
+
+	// These are defined later
+	var ARTICLE_TAGS;
+
+//]]>
+</script>
+
+
+<script type="text/javascript" src="/web/20170423181248js_/http://www.citeulike.org/static/js/article.033595890324bcb49d8496282a80bfc4.js"></script>
+
+
+
+
+<!-- google_ad_section_start -->
+<h1><span id="article_title">Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics.</span>
+<span style="float:right" class="ui-icon ui-icon-check"></span>
+
+</h1>
+
+<div class="vague">by: <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Steinbeck:C">C. Steinbeck</a>, <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Hoppe:C">C. Hoppe</a>, <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Kuhn:S">S. Kuhn</a>, <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Floris:M">M. Floris</a>, <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Guha:R">R. Guha</a>, <a class="author" href="/web/20170423181248/http://www.citeulike.org/user/egonw/author/Willighagen:EL">E. L. Willighagen</a></div>
+
+<!-- google_ad_section_end -->
+
+
+
+
+<div style="margin-top: 15px;">
+
+
+
+</div>
+
+	<!-- google_ad_section_start -->
+	<div>
+	<div id="citation-plain" class="vague" style="display:inline"><span><i>Current pharmaceutical design</i>, Vol. 12, No. 17. (2006), pp. 2111-2120, <a href="https://web.archive.org/web/20170423181248/http://dx.doi.org/10.2174/138161206777585274">doi:10.2174/138161206777585274</a>&nbsp;<span id="citation-doi" style="display:none"></span><span> Key: citeulike:1073448</span></span></div>
+	</div>
+	<!-- google_ad_section_end -->
+
+<div id="article-manage" style="display:block; margin-top:20px; margin-bottom:15px;">
+<span class="buttonset">
+</span>
+
+	<button title="Show posting summary page for this article" class="tipsy-hint-s" onclick="location.href='/article-posts/1073448'">Posts</button>
+
+
+		<script type="text/javascript">
+			var likesCount = 0;
+		</script>
+	
+
+
+<button id="export-menu" title="Export this article" class="tipsy-hint-s">Export</button>
+<button id="show-formatted-citation-button" title="Show formatted citation" onclick="showCitation()" class="tipsy-hint-s">Citation</button>
+
+</div>
+<!-- END BUTTONS -->
+
+
+
+	<div id="export" style="display:none">
+		<table>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/endnote/user/egonw/article/1073448">RIS</a></td>
+				<td>Export as RIS which can be imported into most citation managers</td>
+			</tr>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/bibtex_options/user/egonw/article/1073448">BibTeX</a></td>
+				<td>Export as BibTeX which can be imported into most citation/bibliography managers</td></tr>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/pdf_options/user/egonw/article/1073448?fmt=pdf">PDF</a></td>
+				<td>Export formatted citations as PDF</td></tr>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/pdf_options/user/egonw/article/1073448?fmt=rtf">RTF</a></td>
+				<td>Export formatted citations as RTF which can be imported into most word processors</td></tr>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/delicious/user/egonw/article/1073448">Delicious</a> <img src="/web/20170423181248im_/http://www.citeulike.org/static/img/delicious8x8.png"/></td>
+				<td>Export in format suitable for direct import into delicious.com. <span style="display:none">(<a href="/web/20170423181248/http://www.citeulike.org/delicious::sync::config">Setup</a> a permanent sync to delicious)</span>
+				</td>
+			</tr>
+			<tr>
+				<td><a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/pdf_options/user/egonw/article/1073448?fmt=txt">Formatted&nbsp;Text</a></td>
+				<td>Export formatted citations as plain text</td>
+			</tr>
+		</table>
+
+
+		<hr/>
+		<p>To insert individual citation into a bibliography in a word-processor,
+		select your preferred citation style below and drag-and-drop it into the document.
+		</p>
+	
+</div>
+
+
+	<div style="text-align:left; margin-top:10px; display:block" class="vague" id="citation-div">
+	<h2 style="display:block">Formatted Citation</h2>
+	<div id="citation" style="margin: 10px 0px"></div>
+	<form id="citation-form" style="display:none" action="#">
+	<h2 style="display:block">Style</h2>
+	<select style="display:inline" class="uiwidget" name="citation_format" id="citation_format" onchange="document.getElementById('citation-form').submit()">
+
+<option value="plain" selected="selected">Plain</option>
+<option value="achemso">ACS - American Chemical Society</option>
+<option value="apa">APA - American Psychological Association</option>
+<option value="apsrev">APS - American Physical Society (RevTeX)</option>
+<option value="cbe">CBE - Council of Biology Editors</option>
+<option value="chicago">Chicago</option>
+<option value="elsart-harv">Elsevier</option>
+<option value="harvard">Harvard</option>
+<option value="IEEEtran">IEEE</option>
+<option value="ama">JAMA - Journal of American Medical Association</option>
+<option value="mla">MLA - Modern Language Association</option>
+<option value="naturemag">Nature</option>
+<option value="oxford_en">Oxford</option>
+<option value="science">Science</option>
+<option value="turabian">Turabian</option>
+<option value="vancouver">Vancouver</option>
+<option value="apa-good">APA (Reed)</option>
+
+	</select>
+	<div>
+		<input type="checkbox" id="citation-show-url" name="skipurl" value="true" onchange="reloadCitation()"/> Don't include URL. Some citation styles add the source URL, which you may not want.
+	</div>
+	</form>
+	<br/>
+	<h2 id="show_cit_html">Show HTML</h2>
+	<div id="html_citation">
+	</div>
+	</div>
+
+<div id="likes-div"><h2 style="margin-top:0px">Likes
+		<span style="color:red">(beta)</span></h2>
+	<div>
+<span id="likes_text">This copy of the article hasn't been liked by anyone yet.</span>
+</div></div>
+<div style="clear:right"></div><br/>
+<div style="clear:right; border: 1px solid black; padding: 0.5em; background-color: #FFC">
+
+
+<h3>View FullText article
+
+</h3>
+
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rfr_id=info:sid/citeulike.org:citeulike&amp;rft_dat=user/egonw/article/1073448&amp;rft_id=info:doi/10%2e2174%2f138161206777585274&amp;rft_id=info:pmid/16796559&amp;rft.date=2006&amp;rft.epage=2120&amp;rft.title=Current+pharmaceutical+design&amp;rft.auinit=C&amp;rft.aulast=Steinbeck&amp;rft.atitle=Recent+developments+of+the+chemistry+development+kit+%28CDK%29+%2d+an+open%2dsource+java+library+for+chemo%2d+and+bioinformatics%2e&amp;rft.spage=2111&amp;rft.volume=12&amp;rft.issue=17&amp;rft.issn=1381%2d6128&amp;rft.au=Hoppe%2c+C&amp;rft.au=Kuhn%2c+S&amp;rft.au=Floris%2c+M&amp;rft.au=Guha%2c+R&amp;rft.au=Willighagen%2c+EL&amp;rft.genre=article&amp;genre=article"></span>
+
+<ul>
+<li class="menu">
+
+	<span id="linkouts" class="black"><a class="linkout {type: 'DOI', track_type: 'DOI/pubmed/10.2174'}" accesskey="1" href="https://web.archive.org/web/20170423181248/http://dx.doi.org/10.2174/138161206777585274" rel="nofollow">DOI</a>, <a class="linkout {type: 'Pubmed', track_type: 'Pubmed'}" accesskey="2" href="https://web.archive.org/web/20170423181248/http://view.ncbi.nlm.nih.gov/pubmed/16796559" rel="nofollow">Pubmed</a>, <a class="linkout {type: 'Hubmed', track_type: 'Hubmed'}" accesskey="3" href="https://web.archive.org/web/20170423181248/http://www.hubmed.org/display.cgi?uids=16796559" rel="nofollow">Hubmed</a><span id="deepdyve" style="display:none">, <img style="vertical-align: -4px" src="/web/20170423181248im_/http://www.citeulike.org/static/img/deepdyve_16x16.png"/><a class="tipsy-hint-s linkout {type: 'DEEPDYVE', track_type: 'DOI/DEEPDYVE/10.2174'}" id="dd_href" href="#" target="_blank" title="Rent this article at deepdyve.com">DeepDyve</a></span><span id="journalfire" style="display:none">, <img style="vertical-align: -4px" src="/web/20170423181248im_/http://www.citeulike.org/static/img/icons/jf_icon.png"/><a class="tipsy-hint-n linkout {type: 'JOURNALFIRE', track_type: 'JOURNALFIRE/16796559/10.2174/138161206777585274'}" id="jf_href" href="#" target="_blank" title="Discuss at JournalFire">JournalFire</a></span>, <a class="linkout {type: 'Pubget', track_type: 'Pubget/PMID'}" href="https://web.archive.org/web/20170423181248/http://pubget.com/search?q=pmid:16796559" rel="nofollow">Pubget</a></span>
+
+
+</li></ul>
+</div>
+<br/>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	ARTICLE.doi ="10.2174/138161206777585274";
+	ARTICLE.pmid ="16796559";
+	ARTICLE.is_springerimages = "0";
+	GLOBAL.ipaddr = "207.241.231.149";
+	GLOBAL.openurl_location = ""
+	ARTICLE.citation_format = "plain"
+
+//]]>
+</script>
+
+
+
+
+
+<div style="clear:left"></div>
+
+
+
+<div id="openurlResolver" style="margin-bottom:10px; display:none">
+<h3>Find this article at <span id="openurlResolverName"></span></h3>
+<a class="nohilight" id="openurlResolverLink"><img id="openurlResolverImage" style="vertical-align:middle"/></a>
+<a id="openurlchoice" onclick="saveOpenurlChoice('207.241.231.149')" class="tipsy-hint-s" title="If you move off-campus, you can save your current location for future library lookups" style="cursor:pointer"> (Save current location: 207.241.231.149)</a>
+</div>
+
+
+			<h3>Abstract</h3>
+			<div id="abstract-body" class="not-too-wide">
+			<blockquote>
+			<!-- google_ad_section_start -->
+			<p>The Chemistry Development Kit (CDK) provides methods for common tasks in molecular informatics, including 2D and 3D rendering of chemical structures, I/O routines, SMILES parsing and generation, ring searches, isomorphism checking, structure diagram generation, etc. Implemented in Java, it is used both for server-side computational services, possibly equipped with a web interface, as well as for applications and client-side applets. This article introduces the CDK's new QSAR capabilities and the recently introduced interface to statistical software.</p>
+			<!-- google_ad_section_end -->
+			</blockquote>
+			</div>
+			<br/>
+		
+<h3 style="clear:right">egonw's  tags for this article</h3>
+<ul id="articleTagList"><li class="menu">
+<a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/user/egonw/tag/cheminformatics">cheminformatics</a>
+<a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/user/egonw/tag/java">java</a>
+<a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/user/egonw/tag/opensource">opensource</a>
+<a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/user/egonw/tag/papers">papers</a>
+</li></ul>
+
+	<div id="cites" style="margin-top:10px">
+	<h3 style="clear:right">Citations (CiTO)
+
+
+		<a rel="nofollow" href="/web/20170423181248/http://www.citeulike.org/user/egonw/cito/1073448" class="plainlink">[Show as list]</a>
+		<a id="expand-cito" class="plainlink">[Expand]</a>
+		<a id="expand-cito-graph" class="plainlink">[Graph]</a>
+	
+
+	</h3>
+
+<div id="citesList">
+<div class="cito-link {article_id:423382, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/423382" class="plain {article_id:423382, cito:'extends'}">extends</a>&nbsp;<div class="cito-details" id="cito-details-423382"></div></div>
+<div class="cito-link {article_id:1375511, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/1375511" class="plain {article_id:1375511, cito:'cites'}">cites</a>&nbsp;<div class="cito-details" id="cito-details-1375511"></div></div>
+<div class="cito-link {article_id:9388670, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9388670" class="plain {article_id:9388670, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9388670"></div></div>
+<div class="cito-link {article_id:9571737, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9571737" class="plain {article_id:9571737, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9571737"></div></div>
+<div class="cito-link {article_id:10136356, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10136356" class="plain {article_id:10136356, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10136356"></div></div>
+<div class="cito-link {article_id:10089821, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10089821" class="plain {article_id:10089821, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10089821"></div></div>
+<div class="cito-link {article_id:10136546, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10136546" class="plain {article_id:10136546, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10136546"></div></div>
+<div class="cito-link {article_id:10065703, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10065703" class="plain {article_id:10065703, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10065703"></div></div>
+<div class="cito-link {article_id:8485499, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8485499" class="plain {article_id:8485499, cito:'isDiscussedBy'}">isDiscussedBy</a>&nbsp;<div class="cito-details" id="cito-details-8485499"></div></div>
+<div class="cito-link {article_id:9436151, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9436151" class="plain {article_id:9436151, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-9436151"></div></div>
+<div class="cito-link {article_id:9477705, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9477705" class="plain {article_id:9477705, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9477705"></div></div>
+<div class="cito-link {article_id:8736519, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8736519" class="plain {article_id:8736519, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8736519"></div></div>
+<div class="cito-link {article_id:9031470, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9031470" class="plain {article_id:9031470, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9031470"></div></div>
+<div class="cito-link {article_id:8530538, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8530538" class="plain {article_id:8530538, cito:'isExtendedBy'}">isExtendedBy</a>&nbsp;<div class="cito-details" id="cito-details-8530538"></div></div>
+<div class="cito-link {article_id:8295239, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8295239" class="plain {article_id:8295239, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8295239"></div></div>
+<div class="cito-link {article_id:10010813, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10010813" class="plain {article_id:10010813, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10010813"></div></div>
+<div class="cito-link {article_id:10180097, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10180097" class="plain {article_id:10180097, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10180097"></div></div>
+<div class="cito-link {article_id:8049323, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8049323" class="plain {article_id:8049323, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8049323"></div></div>
+<div class="cito-link {article_id:8247021, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8247021" class="plain {article_id:8247021, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8247021"></div></div>
+<div class="cito-link {article_id:7887075, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887075" class="plain {article_id:7887075, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887075"></div></div>
+<div class="cito-link {article_id:7887076, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887076" class="plain {article_id:7887076, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887076"></div></div>
+<div class="cito-link {article_id:7887078, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887078" class="plain {article_id:7887078, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887078"></div></div>
+<div class="cito-link {article_id:7887084, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887084" class="plain {article_id:7887084, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887084"></div></div>
+<div class="cito-link {article_id:7887096, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887096" class="plain {article_id:7887096, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887096"></div></div>
+<div class="cito-link {article_id:7887103, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887103" class="plain {article_id:7887103, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887103"></div></div>
+<div class="cito-link {article_id:7887106, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887106" class="plain {article_id:7887106, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887106"></div></div>
+<div class="cito-link {article_id:7887107, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887107" class="plain {article_id:7887107, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887107"></div></div>
+<div class="cito-link {article_id:7887108, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887108" class="plain {article_id:7887108, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887108"></div></div>
+<div class="cito-link {article_id:7898154, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898154" class="plain {article_id:7898154, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898154"></div></div>
+<div class="cito-link {article_id:7898155, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898155" class="plain {article_id:7898155, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898155"></div></div>
+<div class="cito-link {article_id:7898156, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898156" class="plain {article_id:7898156, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898156"></div></div>
+<div class="cito-link {article_id:7898157, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898157" class="plain {article_id:7898157, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898157"></div></div>
+<div class="cito-link {article_id:7898158, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898158" class="plain {article_id:7898158, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898158"></div></div>
+<div class="cito-link {article_id:7887117, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887117" class="plain {article_id:7887117, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887117"></div></div>
+<div class="cito-link {article_id:7887119, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7887119" class="plain {article_id:7887119, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7887119"></div></div>
+<div class="cito-link {article_id:7898130, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898130" class="plain {article_id:7898130, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898130"></div></div>
+<div class="cito-link {article_id:7898131, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898131" class="plain {article_id:7898131, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898131"></div></div>
+<div class="cito-link {article_id:7898132, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898132" class="plain {article_id:7898132, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898132"></div></div>
+<div class="cito-link {article_id:7898133, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898133" class="plain {article_id:7898133, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898133"></div></div>
+<div class="cito-link {article_id:7898134, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898134" class="plain {article_id:7898134, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898134"></div></div>
+<div class="cito-link {article_id:7898135, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898135" class="plain {article_id:7898135, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898135"></div></div>
+<div class="cito-link {article_id:7898136, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898136" class="plain {article_id:7898136, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898136"></div></div>
+<div class="cito-link {article_id:7898137, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898137" class="plain {article_id:7898137, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898137"></div></div>
+<div class="cito-link {article_id:7898138, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898138" class="plain {article_id:7898138, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898138"></div></div>
+<div class="cito-link {article_id:7898139, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898139" class="plain {article_id:7898139, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898139"></div></div>
+<div class="cito-link {article_id:7898141, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898141" class="plain {article_id:7898141, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898141"></div></div>
+<div class="cito-link {article_id:7898142, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898142" class="plain {article_id:7898142, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898142"></div></div>
+<div class="cito-link {article_id:7898143, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898143" class="plain {article_id:7898143, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898143"></div></div>
+<div class="cito-link {article_id:7898144, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898144" class="plain {article_id:7898144, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898144"></div></div>
+<div class="cito-link {article_id:7898145, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898145" class="plain {article_id:7898145, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898145"></div></div>
+<div class="cito-link {article_id:7898146, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898146" class="plain {article_id:7898146, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898146"></div></div>
+<div class="cito-link {article_id:7898147, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898147" class="plain {article_id:7898147, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898147"></div></div>
+<div class="cito-link {article_id:7898148, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898148" class="plain {article_id:7898148, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898148"></div></div>
+<div class="cito-link {article_id:7898149, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898149" class="plain {article_id:7898149, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898149"></div></div>
+<div class="cito-link {article_id:7898150, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898150" class="plain {article_id:7898150, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898150"></div></div>
+<div class="cito-link {article_id:7898151, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898151" class="plain {article_id:7898151, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898151"></div></div>
+<div class="cito-link {article_id:7898152, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898152" class="plain {article_id:7898152, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898152"></div></div>
+<div class="cito-link {article_id:7898153, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7898153" class="plain {article_id:7898153, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7898153"></div></div>
+<div class="cito-link {article_id:5403808, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/5403808" class="plain {article_id:5403808, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-5403808"></div></div>
+<div class="cito-link {article_id:7818654, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7818654" class="plain {article_id:7818654, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-7818654"></div></div>
+<div class="cito-link {article_id:5441072, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/5441072" class="plain {article_id:5441072, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-5441072"></div></div>
+<div class="cito-link {article_id:6926159, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/6926159" class="plain {article_id:6926159, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-6926159"></div></div>
+<div class="cito-link {article_id:1117873, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/1117873" class="plain {article_id:1117873, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-1117873"></div></div>
+<div class="cito-link {article_id:5722751, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/5722751" class="plain {article_id:5722751, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-5722751"></div></div>
+<div class="cito-link {article_id:6297196, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/6297196" class="plain {article_id:6297196, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-6297196"></div></div>
+<div class="cito-link {article_id:8462271, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8462271" class="plain {article_id:8462271, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-8462271"></div></div>
+<div class="cito-link {article_id:7110609, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/7110609" class="plain {article_id:7110609, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-7110609"></div></div>
+<div class="cito-link {article_id:8982298, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8982298" class="plain {article_id:8982298, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8982298"></div></div>
+<div class="cito-link {article_id:8864821, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8864821" class="plain {article_id:8864821, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-8864821"></div></div>
+<div class="cito-link {article_id:9178745, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9178745" class="plain {article_id:9178745, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9178745"></div></div>
+<div class="cito-link {article_id:9580436, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9580436" class="plain {article_id:9580436, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9580436"></div></div>
+<div class="cito-link {article_id:9083435, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9083435" class="plain {article_id:9083435, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-9083435"></div></div>
+<div class="cito-link {article_id:9266894, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9266894" class="plain {article_id:9266894, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-9266894"></div></div>
+<div class="cito-link {article_id:9351398, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9351398" class="plain {article_id:9351398, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9351398"></div></div>
+<div class="cito-link {article_id:9351393, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9351393" class="plain {article_id:9351393, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9351393"></div></div>
+<div class="cito-link {article_id:9476607, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9476607" class="plain {article_id:9476607, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9476607"></div></div>
+<div class="cito-link {article_id:9519546, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9519546" class="plain {article_id:9519546, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9519546"></div></div>
+<div class="cito-link {article_id:9349185, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9349185" class="plain {article_id:9349185, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-9349185"></div></div>
+<div class="cito-link {article_id:9609923, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9609923" class="plain {article_id:9609923, cito:'isCitedByAsRelated'}">isCitedByAsRelated</a>&nbsp;<div class="cito-details" id="cito-details-9609923"></div></div>
+<div class="cito-link {article_id:8462873, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/8462873" class="plain {article_id:8462873, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-8462873"></div></div>
+<div class="cito-link {article_id:10678103, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10678103" class="plain {article_id:10678103, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10678103"></div></div>
+<div class="cito-link {article_id:9701137, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9701137" class="plain {article_id:9701137, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9701137"></div></div>
+<div class="cito-link {article_id:9485312, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9485312" class="plain {article_id:9485312, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-9485312"></div></div>
+<div class="cito-link {article_id:9849008, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9849008" class="plain {article_id:9849008, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9849008"></div></div>
+<div class="cito-link {article_id:10185866, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10185866" class="plain {article_id:10185866, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-10185866"></div></div>
+<div class="cito-link {article_id:10320156, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10320156" class="plain {article_id:10320156, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10320156"></div></div>
+<div class="cito-link {article_id:10479111, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10479111" class="plain {article_id:10479111, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-10479111"></div></div>
+<div class="cito-link {article_id:10389681, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10389681" class="plain {article_id:10389681, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10389681"></div></div>
+<div class="cito-link {article_id:10392504, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10392504" class="plain {article_id:10392504, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10392504"></div></div>
+<div class="cito-link {article_id:9306014, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9306014" class="plain {article_id:9306014, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9306014"></div></div>
+<div class="cito-link {article_id:9905438, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9905438" class="plain {article_id:9905438, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-9905438"></div></div>
+<div class="cito-link {article_id:9905489, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/9905489" class="plain {article_id:9905489, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-9905489"></div></div>
+<div class="cito-link {article_id:10492609, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10492609" class="plain {article_id:10492609, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10492609"></div></div>
+<div class="cito-link {article_id:10616392, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10616392" class="plain {article_id:10616392, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10616392"></div></div>
+<div class="cito-link {article_id:10685425, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10685425" class="plain {article_id:10685425, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-10685425"></div></div>
+<div class="cito-link {article_id:10705433, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10705433" class="plain {article_id:10705433, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10705433"></div></div>
+<div class="cito-link {article_id:10730874, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10730874" class="plain {article_id:10730874, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-10730874"></div></div>
+<div class="cito-link {article_id:10851659, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10851659" class="plain {article_id:10851659, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10851659"></div></div>
+<div class="cito-link {article_id:10887338, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10887338" class="plain {article_id:10887338, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10887338"></div></div>
+<div class="cito-link {article_id:10874754, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10874754" class="plain {article_id:10874754, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-10874754"></div></div>
+<div class="cito-link {article_id:10895971, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/10895971" class="plain {article_id:10895971, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-10895971"></div></div>
+<div class="cito-link {article_id:11005435, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11005435" class="plain {article_id:11005435, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11005435"></div></div>
+<div class="cito-link {article_id:11060169, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11060169" class="plain {article_id:11060169, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11060169"></div></div>
+<div class="cito-link {article_id:11067994, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11067994" class="plain {article_id:11067994, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11067994"></div></div>
+<div class="cito-link {article_id:11183984, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11183984" class="plain {article_id:11183984, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11183984"></div></div>
+<div class="cito-link {article_id:11184031, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11184031" class="plain {article_id:11184031, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11184031"></div></div>
+<div class="cito-link {article_id:11289757, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11289757" class="plain {article_id:11289757, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11289757"></div></div>
+<div class="cito-link {article_id:11486358, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11486358" class="plain {article_id:11486358, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11486358"></div></div>
+<div class="cito-link {article_id:11275814, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11275814" class="plain {article_id:11275814, cito:'isCitedByAsRelated'}">isCitedByAsRelated</a>&nbsp;<div class="cito-details" id="cito-details-11275814"></div></div>
+<div class="cito-link {article_id:11863925, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11863925" class="plain {article_id:11863925, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11863925"></div></div>
+<div class="cito-link {article_id:11864040, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11864040" class="plain {article_id:11864040, cito:'isCitedAsAuthorityBy'}">isCitedAsAuthorityBy</a>&nbsp;<div class="cito-details" id="cito-details-11864040"></div></div>
+<div class="cito-link {article_id:11864183, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11864183" class="plain {article_id:11864183, cito:'isCitedBy'}">isCitedBy</a>&nbsp;<div class="cito-details" id="cito-details-11864183"></div></div>
+<div class="cito-link {article_id:11852561, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11852561" class="plain {article_id:11852561, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11852561"></div></div>
+<div class="cito-link {article_id:11895542, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11895542" class="plain {article_id:11895542, cito:'isExtendedBy'}">isExtendedBy</a>&nbsp;<div class="cito-details" id="cito-details-11895542"></div></div>
+<div class="cito-link {article_id:12637065, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12637065" class="plain {article_id:12637065, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-12637065"></div></div>
+<div class="cito-link {article_id:12654418, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12654418" class="plain {article_id:12654418, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-12654418"></div></div>
+<div class="cito-link {article_id:12623944, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12623944" class="plain {article_id:12623944, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-12623944"></div></div>
+<div class="cito-link {article_id:12805970, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12805970" class="plain {article_id:12805970, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-12805970"></div></div>
+<div class="cito-link {article_id:12742448, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12742448" class="plain {article_id:12742448, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-12742448"></div></div>
+<div class="cito-link {article_id:11962023, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11962023" class="plain {article_id:11962023, cito:'isCitedForInformationBy'}">isCitedForInformationBy</a>&nbsp;<div class="cito-details" id="cito-details-11962023"></div></div>
+<div class="cito-link {article_id:11533825, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11533825" class="plain {article_id:11533825, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11533825"></div></div>
+<div class="cito-link {article_id:11961460, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11961460" class="plain {article_id:11961460, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11961460"></div></div>
+<div class="cito-link {article_id:12805951, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/12805951" class="plain {article_id:12805951, cito:'isCitedForInformationBy'}">isCitedForInformationBy</a>&nbsp;<div class="cito-details" id="cito-details-12805951"></div></div>
+<div class="cito-link {article_id:11864222, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/11864222" class="plain {article_id:11864222, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-11864222"></div></div>
+<div class="cito-link {article_id:13142074, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/13142074" class="plain {article_id:13142074, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-13142074"></div></div>
+<div class="cito-link {article_id:13709005, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/13709005" class="plain {article_id:13709005, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-13709005"></div></div>
+<div class="cito-link {article_id:13887155, username:'egonw'}"><a href="/web/20170423181248/http://www.citeulike.org/article/13887155" class="plain {article_id:13887155, cito:'definesMethodUsedBy'}">definesMethodUsedBy</a>&nbsp;<div class="cito-details" id="cito-details-13887155"></div></div>
+</div>
+	<div id="citograph" style="display:none">
+	<div>
+	<a id="citograph_new" target="_blank" href="#">[Open graph in new window]</a>
+	Graph Depth:
+	<select id="citograph_depth" onchange="updateCitoGraph()">
+		<option value="10">All (max. 10)</option>
+		<option value="4">4</option>
+		<option value="3">3</option>
+		<option value="2">2</option>
+		<option value="1">1</option>
+	</select>
+	Direction:
+	<select id="citograph_direction" onchange="updateCitoGraph()">
+		<option value="both">Both</option>
+		<option value="up">Up</option>
+		<option value="down">Down</option>
+	</select>
+
+	</div>
+	<div id="citograph_direction_warning">
+	If the direction is set to "up" or "down", the graph may be empty.
+	</div>
+	</div>
+
+	</div>
+
+<br/>
+
+	<h3><a href="javascript:clexpand('reviews')" class="plain"><img alt="X" id="reviews-arrow" src="/web/20170423181248im_/http://www.citeulike.org/static/img/arrow-collapsed.gif"/> There are no reviews yet</a>
+		
+	</h3>
+	<div id="reviews-body" style="display:none">
+
+<blockquote>There are no reviews of this article</blockquote>
+</div>
+
+		<h3><a class="plain" href="javascript:clexpand('posters')"><img alt="X" id="posters-arrow" src="/web/20170423181248im_/http://www.citeulike.org/static/img/arrow-open.gif"/>
+		Find related articles from these CiteULike users</a></h3>
+	
+<div id="posters-body" class="store-state" style="display:none"><ul><li class="menu"><span class="black"><a class="othrusr" href="/web/20170423181248/http://www.citeulike.org/user/baoilleach">baoilleach</a>, <a class="othrusr" class="publicant" href="/web/20170423181248/http://www.citeulike.org/user/egonw">egonw</a>, <a class="othrusr" href="/web/20170423181248/http://www.citeulike.org/user/flbarroso">flbarroso</a>, <a class="othrusr" href="/web/20170423181248/http://www.citeulike.org/user/JALumley">JALumley</a>, <a class="othrusr" href="/web/20170423181248/http://www.citeulike.org/user/kuhn">kuhn</a>, <a class="othrusr" href="/web/20170423181248/http://www.citeulike.org/user/noby">noby</a>, <a class="othrgrp" href="/web/20170423181248/http://www.citeulike.org/group/14458">Groovy Cheminformatics with the Chemistry Development Kit</a></span></li></ul></div>
+
+		<h3><a href="javascript:clexpand('tags')" class="plain"><img alt="X" id="tags-arrow" src="/web/20170423181248im_/http://www.citeulike.org/static/img/arrow-collapsed.gif"/>
+			Find related articles with these CiteULike tags</a></h3>
+		<div id="tags-body" class="store-state" style="display:none">
+		<ul>
+		<li><a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/bioinformatics">bioinformatics</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/bopaper">bopaper</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/cdk">cdk</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/chemical">chemical</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/cheminformatics">cheminformatics</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/chemistry_development_kit">chemistry_development_kit</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/java">java</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/open-bio">open-bio</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/opensource">opensource</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/papers">papers</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/similarity">similarity</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/smiles">smiles</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/tool">tool</a>, <a class="tag" rel="tag" href="/web/20170423181248/http://www.citeulike.org/tag/toolkit">toolkit</a></li></ul>
+		</div>
+	
+
+		<h3><a href="javascript:void(0)" class="plain" onclick="toggle_history(); return false"><img alt="X" id="history-arrow" src="/web/20170423181248im_/http://www.citeulike.org/static/img/arrow-collapsed.gif"/>
+		Posting History</a></h3>
+		<div id="history"></div>
+	
+
+	<br/>
+	<h3 style="clear:right" id="export-records-title"><a href="javascript:void(0)" id="bibtex_link" onclick="getBibtex('egonw','','1073448'); return false" class="plain"><img alt="X" id="combo-arrow" src="/web/20170423181248im_/http://www.citeulike.org/static/img/arrow-collapsed.gif"/> Export records</a></h3>
+	<div id="combo-body" style="display:none">
+	</div>
+
+
+<div id="search_term" style="display:none; color:red; border: 1px solid black; background-color:#fdd; margin:10px; padding:5px; padding:10px">
+	<form action="/web/20170423181248/http://www.citeulike.org/search/all" method="post" id="find-similar-form">
+		<textarea rows="4" style="width:90%; margin:10px;background-color:#fdd; " id="search_text" name="q"></textarea>
+		<input type="hidden" name="similar" value="Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics."/>
+	</form>
+</div>
+
+</div>
+<div id="tagsbox" style="display:none">
+
+<div id="navright">
+
+<div style="position:relative">
+	<div style="position:absolute; top:-10px; left: -10px">
+		<span id="tags-pins">
+		<img id="tags-pins-off" src="/web/20170423181248im_/http://www.citeulike.org/static/img/icons/pin-off.gif"/>
+		<img id="tags-pins-on" src="/web/20170423181248im_/http://www.citeulike.org/static/img/icons/pin-on.gif" style="display:none"/>
+		</span>
+	</div>
+</div>
+
+<div id="always_show_tags_help" style="display:none">
+	<h2>Always show this tags box</h2>
+	<ul>
+		<li>this may affect the page loading speed if checked.</li>
+		<li>changes to this setting will only be in effect after next page load</li>
+	</ul>
+</div>
+
+<h2 style="margin-top:20px">egonw's tags</h2>
+<div class="vague">All tags in egonw's library</div>
+
+
+
+
+		<div style="white-space:nowrap; padding:5px">
+		<span class="tipsy-hint-s" title="You can use &quot;regular expressions&quot; here. For example &quot;^r&quot; will limit to tags starting with &quot;r&quot;.">Filter: </span>
+		<form action="#" onsubmit="return false;" name="right_tag_search" style="display:inline">
+		<input autocomplete="off" name="q" value="" type="text" size="10" onkeyup="tag_search_key_up();"/>
+		</form>
+		</div>
+
+		<a id="cloudCloudLink" href="#" onclick="showCloud(true)" style="display:none">[Display as Cloud]</a>
+		<a id="cloudListLink" href="#" onclick="showCloud(false)" style="display:none">[Display as List]</a>
+		<br/>
+		<br/>
+	
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	GLOBAL.tags = null;
+	GLOBAL.tags_loaded = true;
+	// Pass in via ADP args
+	GLOBAL.tags_load_url = "";
+
+	var TAGS_CLOUD = false;
+	var TAGS_TABLE = false;
+
+	function loadTags(callback) {
+		if (GLOBAL.tags_loaded) {
+			if (callback) {
+				callback();
+			}
+		}
+		GLOBAL.tags_loaded = true;
+		if (callback) {
+			callback();
+		}
+	}
+
+
+	function showCloud(state) {
+		_showCloud(state)
+		setUIOption("showCloud", state);
+	}
+	function _showCloud(state) {
+		jQuery("#tagcloud").toggle(state);
+		jQuery("#taglist").toggle(!state);
+		jQuery("#cloudListLink").toggle(state);
+		jQuery("#cloudCloudLink").toggle(!state);
+		if (state) {
+			_genTagsCloud();
+		} else {
+			_genTagsTable();
+		}
+
+	}
+
+	function tagSort(a, b) {
+		var ta = a.tag.replace("*","");
+		var tb = b.tag.replace("*","");
+		return ta < tb ? -1 : (ta == tb ? 0 : 1)
+	}
+
+
+	function _genTagsCloud() {
+		// loadTags(_genTagsCloud);
+		if (TAGS_CLOUD) {
+			return;
+		}
+		TAGS_CLOUD = true;
+		jQuery("#tagcloud").tagCloud(
+			GLOBAL.tags,
+			{click : null, sort : tagSort},
+			"/user/egonw"
+		);
+		jQuery(".tagcloudlink").addClass("tag");
+		jQuery(".tagcloudlink:contains('*')").removeClass("tag").addClass("ptag");
+
+	}
+
+	function _genTagsTable() {
+		// loadTags(_genTagsTable);
+		if (TAGS_TABLE) {
+			return;
+		}
+		TAGS_TABLE = true;
+		var table = jQuery("#taglist table").empty();
+		for (var i=0; i<GLOBAL.tags.length; i++) {
+			var t = GLOBAL.tags[i];
+			var tr = jQuery("<tr>").attr("id","tr_"+t.tag);
+			var td1 = jQuery("<td>")
+				.addClass("tag_l")
+				.append(jQuery("<a>")
+					.addClass(t.cls)
+					.attr("href","/user/egonw/tag/"+t.tag)
+					.text(t.tag)
+				);
+			var td2 = jQuery("<td>").addClass("tag_r").text(t.count);
+			tr.append(td1).append(td2);
+			table.append(tr);
+		}
+		adjustTagsDims();
+	}
+
+	function populateTagsTable() {
+		var state;
+		if (IE6()) {
+			state = false;
+		} else {
+			state = getUIOption("showCloud");
+		}
+		jQuery("#tags-loading").hide();
+		jQuery("#navright_inner").show();
+		_showCloud(state);
+	}
+
+//]]>
+</script>
+
+
+<div id="tags-loading" style="display:block">
+<img src="/web/20170423181248im_/http://www.citeulike.org/static/img/ajax-loader-large.gif"/>
+</div>
+<div id="navright_inner" style="display:block">
+<div id="taglist">
+<table>
+
+
+<tr style="display:none"><td></td></tr>
+</table>
+</div>
+<div id="tagcloud" style="overflow:hidden; display:none"></div>
+</div>
+
+	<script type="text/javascript">
+	GLOBAL.tags = [
+	{tag: "cheminformatics", count: 108, cls: "tag"},
+{tag: "metabolomics", count: 55, cls: "tag"},
+{tag: "rdf", count: 46, cls: "tag"},
+{tag: "qsar", count: 45, cls: "tag"},
+{tag: "cdk--usespackage--fingerprint", count: 42, cls: "tag"},
+{tag: "cdk--usespackage--qsar", count: 42, cls: "tag"},
+{tag: "chemistry", count: 42, cls: "tag"},
+{tag: "ontology", count: 31, cls: "tag"},
+{tag: "bioinformatics", count: 30, cls: "tag"},
+{tag: "papers", count: 28, cls: "tag"},
+{tag: "toxicology", count: 24, cls: "tag"},
+{tag: "java", count: 23, cls: "tag"},
+{tag: "shelf", count: 21, cls: "tag"},
+{tag: "database", count: 20, cls: "tag"},
+{tag: "chemometrics", count: 19, cls: "tag"},
+{tag: "ebook", count: 18, cls: "tag"},
+{tag: "cdk--useslibrary", count: 18, cls: "tag"},
+{tag: "semantic", count: 16, cls: "tag"},
+{tag: "wiki", count: 16, cls: "tag"},
+{tag: "web", count: 16, cls: "tag"},
+{tag: "cdk", count: 15, cls: "tag"},
+{tag: "crystallography", count: 15, cls: "tag"},
+{tag: "textmining", count: 14, cls: "tag"},
+{tag: "pathway", count: 13, cls: "tag"},
+{tag: "owl", count: 12, cls: "tag"},
+{tag: "opensource", count: 11, cls: "tag"},
+{tag: "statistics", count: 11, cls: "tag"},
+{tag: "bioclipse", count: 11, cls: "tag"},
+{tag: "sparql", count: 10, cls: "tag"},
+{tag: "cdk--usespackage--smiles", count: 9, cls: "tag"},
+{tag: "noaccess", count: 9, cls: "tag"},
+{tag: "semantic_web", count: 9, cls: "tag"},
+{tag: "fingerprint", count: 9, cls: "tag"},
+{tag: "proteochemometrics", count: 8, cls: "tag"},
+{tag: "validation", count: 8, cls: "tag"},
+{tag: "structure", count: 8, cls: "tag"},
+{tag: "descriptor", count: 8, cls: "tag"},
+{tag: "nmr", count: 8, cls: "tag"},
+{tag: "toread", count: 8, cls: "tag"},
+{tag: "inchi", count: 8, cls: "tag"},
+{tag: "pka", count: 8, cls: "tag"},
+{tag: "taverna", count: 7, cls: "tag"},
+{tag: "cdk--usespackage--renderer", count: 7, cls: "tag"},
+{tag: "xml", count: 7, cls: "tag"},
+{tag: "data", count: 7, cls: "tag"},
+{tag: "drug", count: 7, cls: "tag"},
+{tag: "collabcheminf", count: 7, cls: "tag"},
+{tag: "toxicity", count: 7, cls: "tag"},
+{tag: "nanotechnology", count: 7, cls: "tag"},
+{tag: "workflow", count: 7, cls: "tag"},
+{tag: "visualization", count: 7, cls: "tag"},
+{tag: "education", count: 6, cls: "tag"},
+{tag: "oscar", count: 6, cls: "tag"},
+{tag: "cancer", count: 6, cls: "tag"},
+{tag: "owncollection", count: 6, cls: "tag"},
+{tag: "biology", count: 6, cls: "tag"},
+{tag: "keysymp2011", count: 6, cls: "tag"},
+{tag: "cdk--usespackage--io", count: 6, cls: "tag"},
+{tag: "opentox", count: 6, cls: "tag"},
+{tag: "opendata", count: 6, cls: "tag"},
+{tag: "discovery", count: 6, cls: "tag"},
+{tag: "cml", count: 6, cls: "tag"},
+{tag: "quantum", count: 6, cls: "tag"},
+{tag: "protein", count: 6, cls: "tag"},
+{tag: "qspr", count: 6, cls: "tag"},
+{tag: "metabolism", count: 6, cls: "tag"},
+{tag: "descriptors", count: 5, cls: "tag"},
+{tag: "openaccessbutton", count: 5, cls: "tag"},
+{tag: "publishing", count: 5, cls: "tag"},
+{tag: "epigenetics", count: 5, cls: "tag"},
+{tag: "kohonen", count: 5, cls: "tag"},
+{tag: "pdb", count: 5, cls: "tag"},
+{tag: "logp", count: 5, cls: "tag"},
+{tag: "pubchem", count: 5, cls: "tag"},
+{tag: "mass", count: 5, cls: "tag"},
+{tag: "cdk--usespackage--isomorphism", count: 5, cls: "tag"},
+{tag: "chembl", count: 5, cls: "tag"},
+{tag: "smarts", count: 5, cls: "tag"},
+{tag: "cdk--usespackage--smiles_smarts", count: 5, cls: "tag"},
+{tag: "openphacts", count: 5, cls: "tag"},
+{tag: "machine", count: 4, cls: "tag"},
+{tag: "workbench", count: 4, cls: "tag"},
+{tag: "hydrogen", count: 4, cls: "tag"},
+{tag: "molecular", count: 4, cls: "tag"},
+{tag: "acsrdf2010", count: 4, cls: "tag"},
+{tag: "jmol", count: 4, cls: "tag"},
+{tag: "malaria", count: 4, cls: "tag"},
+{tag: "systems", count: 4, cls: "tag"},
+{tag: "cdk--usespackage--formula", count: 4, cls: "tag"},
+{tag: "nano", count: 4, cls: "tag"},
+{tag: "forcefield", count: 4, cls: "tag"},
+{tag: "genomics", count: 4, cls: "tag"},
+{tag: "tunneling", count: 4, cls: "tag"},
+{tag: "som", count: 4, cls: "tag"},
+{tag: "assay", count: 4, cls: "tag"},
+{tag: "oscar3", count: 3, cls: "tag"},
+{tag: "myexperiment", count: 3, cls: "tag"},
+{tag: "web20", count: 3, cls: "tag"},
+{tag: "r", count: 3, cls: "tag"},
+{tag: "thesis", count: 3, cls: "tag"},
+{tag: "spectroscopy", count: 3, cls: "tag"},
+{tag: "graph", count: 3, cls: "tag"},
+{tag: "iupac", count: 3, cls: "tag"},
+{tag: "similarity", count: 3, cls: "tag"},
+{tag: "network", count: 3, cls: "tag"},
+{tag: "analysis", count: 3, cls: "tag"},
+{tag: "rest", count: 3, cls: "tag"},
+{tag: "webservices", count: 3, cls: "tag"},
+{tag: "reasoning", count: 3, cls: "tag"},
+{tag: "w3c", count: 3, cls: "tag"},
+{tag: "reaction", count: 3, cls: "tag"},
+{tag: "uucjc", count: 3, cls: "tag"},
+{tag: "cell", count: 3, cls: "tag"},
+{tag: "mediawiki", count: 3, cls: "tag"},
+{tag: "ngs", count: 3, cls: "tag"},
+{tag: "aromaticity", count: 3, cls: "tag"},
+{tag: "diabetmod", count: 3, cls: "tag"},
+{tag: "learning", count: 3, cls: "tag"},
+{tag: "lifesciences", count: 3, cls: "tag"},
+{tag: "eln", count: 3, cls: "tag"},
+{tag: "chematica", count: 3, cls: "tag"},
+{tag: "dna", count: 3, cls: "tag"},
+{tag: "gene", count: 3, cls: "tag"},
+{tag: "werner", count: 3, cls: "tag"},
+{tag: "chebi", count: 3, cls: "tag"},
+{tag: "isotope", count: 3, cls: "tag"},
+{tag: "human", count: 3, cls: "tag"},
+{tag: "blog", count: 3, cls: "tag"},
+{tag: "function", count: 3, cls: "tag"},
+{tag: "science", count: 3, cls: "tag"},
+{tag: "eclipse", count: 3, cls: "tag"},
+{tag: "twitter", count: 3, cls: "tag"},
+{tag: "medicine", count: 3, cls: "tag"},
+{tag: "spectrometry", count: 3, cls: "tag"},
+{tag: "metabolite", count: 3, cls: "tag"},
+{tag: "representation", count: 3, cls: "tag"},
+{tag: "wikipathways", count: 3, cls: "tag"},
+{tag: "nanotoxicology", count: 3, cls: "tag"},
+{tag: "cytoscape", count: 2, cls: "tag"},
+{tag: "clustering", count: 2, cls: "tag"},
+{tag: "plant", count: 2, cls: "tag"},
+{tag: "pharmacology", count: 2, cls: "tag"},
+{tag: "review", count: 2, cls: "tag"},
+{tag: "prolog", count: 2, cls: "tag"},
+{tag: "networks", count: 2, cls: "tag"},
+{tag: "rna", count: 2, cls: "tag"},
+{tag: "cdk--usespackage--graph", count: 2, cls: "tag"},
+{tag: "half-life", count: 2, cls: "tag"},
+{tag: "licenseepl", count: 2, cls: "tag"},
+{tag: "methylation", count: 2, cls: "tag"},
+{tag: "microscopy", count: 2, cls: "tag"},
+{tag: "mutagenicity", count: 2, cls: "tag"},
+{tag: "boiling", count: 2, cls: "tag"},
+{tag: "conformations", count: 2, cls: "tag"},
+{tag: "toxcast", count: 2, cls: "tag"},
+{tag: "reach", count: 2, cls: "tag"},
+{tag: "blueobelisk", count: 2, cls: "tag"},
+{tag: "metabolome", count: 2, cls: "tag"},
+{tag: "tautomerism", count: 2, cls: "tag"},
+{tag: "ncsb2012", count: 2, cls: "tag"},
+{tag: "mtor", count: 2, cls: "tag"},
+{tag: "preprint", count: 2, cls: "tag"},
+{tag: "mm2", count: 2, cls: "tag"},
+{tag: "kinetics", count: 2, cls: "tag"},
+{tag: "point", count: 2, cls: "tag"},
+{tag: "google", count: 2, cls: "tag"},
+{tag: "regression", count: 2, cls: "tag"},
+{tag: "proceeding", count: 2, cls: "tag"},
+{tag: "applet", count: 2, cls: "tag"},
+{tag: "mining", count: 2, cls: "tag"},
+{tag: "kernel", count: 2, cls: "tag"},
+{tag: "json", count: 2, cls: "tag"},
+{tag: "kegg", count: 2, cls: "tag"},
+{tag: "microarray", count: 2, cls: "tag"},
+{tag: "leucine", count: 2, cls: "tag"},
+{tag: "python", count: 2, cls: "tag"},
+{tag: "richclient", count: 2, cls: "tag"},
+{tag: "markup", count: 2, cls: "tag"},
+{tag: "thorium", count: 2, cls: "tag"},
+{tag: "insulin", count: 2, cls: "tag"},
+{tag: "stereochemistry", count: 2, cls: "tag"},
+{tag: "cdk--usespackage--signature", count: 2, cls: "tag"},
+{tag: "bond", count: 2, cls: "tag"},
+{tag: "citation", count: 2, cls: "tag"},
+{tag: "licenselgpl", count: 2, cls: "tag"},
+{tag: "annehersey", count: 2, cls: "tag"},
+{tag: "metabolites", count: 2, cls: "tag"},
+{tag: "good", count: 2, cls: "tag"},
+{tag: "geometry", count: 2, cls: "tag"},
+{tag: "line", count: 2, cls: "tag"},
+{tag: "tomato", count: 2, cls: "tag"},
+{tag: "smiles", count: 2, cls: "tag"},
+{tag: "kabsch", count: 2, cls: "tag"},
+{tag: "openrisknet", count: 2, cls: "tag"},
+{tag: "boron", count: 2, cls: "tag"},
+{tag: "blogging", count: 2, cls: "tag"},
+{tag: "case", count: 2, cls: "tag"},
+{tag: "crystal", count: 2, cls: "tag"},
+{tag: "language", count: 2, cls: "tag"},
+{tag: "escience", count: 2, cls: "tag"},
+{tag: "admet", count: 2, cls: "tag"},
+{tag: "linenotation", count: 2, cls: "tag"},
+{tag: "federated", count: 2, cls: "tag"},
+{tag: "map", count: 2, cls: "tag"},
+{tag: "mmff94", count: 2, cls: "tag"},
+{tag: "solubility", count: 2, cls: "tag"},
+{tag: "3d", count: 2, cls: "tag"},
+{tag: "wikipedia", count: 2, cls: "tag"},
+{tag: "drugs", count: 2, cls: "tag"},
+{tag: "enanomapper", count: 2, cls: "tag"},
+{tag: "groovy", count: 2, cls: "tag"},
+{tag: "graphtheory", count: 2, cls: "tag"},
+{tag: "knime", count: 2, cls: "tag"},
+{tag: "algorithms", count: 2, cls: "tag"},
+{tag: "generation", count: 2, cls: "tag"},
+{tag: "history", count: 2, cls: "tag"},
+{tag: "gromacs", count: 2, cls: "tag"},
+{tag: "prediction", count: 2, cls: "tag"},
+{tag: "databases", count: 2, cls: "tag"},
+{tag: "elucidation", count: 2, cls: "tag"},
+{tag: "semanticmediawiki", count: 2, cls: "tag"},
+{tag: "chemical", count: 2, cls: "tag"},
+{tag: "screening", count: 2, cls: "tag"},
+{tag: "informatics", count: 2, cls: "tag"},
+{tag: "matrix", count: 2, cls: "tag"},
+{tag: "cloudcomputing", count: 2, cls: "tag"},
+{tag: "cdk--usespackage--render", count: 2, cls: "tag"},
+{tag: "sali", count: 2, cls: "tag"},
+{tag: "roc", count: 2, cls: "tag"},
+{tag: "wave", count: 2, cls: "tag"},
+{tag: "pellet", count: 1, cls: "tag"},
+{tag: "ontologies", count: 1, cls: "tag"},
+{tag: "metaprint2d", count: 1, cls: "tag"},
+{tag: "gpu", count: 1, cls: "tag"},
+{tag: "chemoinformatics", count: 1, cls: "tag"},
+{tag: "systems-biology", count: 1, cls: "tag"},
+{tag: "license-lgpl", count: 1, cls: "tag"},
+{tag: "binding", count: 1, cls: "tag"},
+{tag: "signature", count: 1, cls: "tag"},
+{tag: "alzheimer", count: 1, cls: "tag"},
+{tag: "innovation", count: 1, cls: "tag"},
+{tag: "in_vitro", count: 1, cls: "tag"},
+{tag: "crossref", count: 1, cls: "tag"},
+{tag: "transcriptional_regulation", count: 1, cls: "tag"},
+{tag: "proteome", count: 1, cls: "tag"},
+{tag: "halogen", count: 1, cls: "tag"},
+{tag: "calculation", count: 1, cls: "tag"},
+{tag: "thermodynamics", count: 1, cls: "tag"},
+{tag: "integrative-genomics", count: 1, cls: "tag"},
+{tag: "life", count: 1, cls: "tag"},
+{tag: "substructure", count: 1, cls: "tag"},
+{tag: "crystallization", count: 1, cls: "tag"},
+{tag: "proton", count: 1, cls: "tag"},
+{tag: "bio-concentration", count: 1, cls: "tag"},
+{tag: "preprocessing", count: 1, cls: "tag"},
+{tag: "dft", count: 1, cls: "tag"},
+{tag: "d-wave", count: 1, cls: "tag"},
+{tag: "brain", count: 1, cls: "tag"},
+{tag: "profiling", count: 1, cls: "tag"},
+{tag: "bigcat", count: 1, cls: "tag"},
+{tag: "communication", count: 1, cls: "tag"},
+{tag: "cdk--citespackage--modeling_builder3d", count: 1, cls: "tag"},
+{tag: "bcut", count: 1, cls: "tag"},
+{tag: "biomoby", count: 1, cls: "tag"},
+{tag: "microbiome", count: 1, cls: "tag"},
+{tag: "sql", count: 1, cls: "tag"},
+{tag: "crambin", count: 1, cls: "tag"},
+{tag: "side_effect", count: 1, cls: "tag"},
+{tag: "polarisability", count: 1, cls: "tag"},
+{tag: "muon", count: 1, cls: "tag"},
+{tag: "obesity", count: 1, cls: "tag"},
+{tag: "cliff", count: 1, cls: "tag"},
+{tag: "supervised", count: 1, cls: "tag"},
+{tag: "activity", count: 1, cls: "tag"},
+{tag: "nanomaterials", count: 1, cls: "tag"},
+{tag: "nci", count: 1, cls: "tag"},
+{tag: "astronomy", count: 1, cls: "tag"},
+{tag: "mcss", count: 1, cls: "tag"},
+{tag: "license", count: 1, cls: "tag"},
+{tag: "affmetrix", count: 1, cls: "tag"},
+{tag: "atom_typing", count: 1, cls: "tag"},
+{tag: "from", count: 1, cls: "tag"},
+{tag: "sadi", count: 1, cls: "tag"},
+{tag: "experiment", count: 1, cls: "tag"},
+{tag: "lodd", count: 1, cls: "tag"},
+{tag: "workflows", count: 1, cls: "tag"},
+{tag: "nlp", count: 1, cls: "tag"},
+{tag: "zinc", count: 1, cls: "tag"},
+{tag: "research_methods", count: 1, cls: "tag"},
+{tag: "preparation", count: 1, cls: "tag"},
+{tag: "ncrna", count: 1, cls: "tag"},
+{tag: "graphical", count: 1, cls: "tag"},
+{tag: "cdk-taverna", count: 1, cls: "tag"},
+{tag: "standard", count: 1, cls: "tag"},
+{tag: "toxicogenomics", count: 1, cls: "tag"},
+{tag: "practices", count: 1, cls: "tag"},
+{tag: "transport", count: 1, cls: "tag"},
+{tag: "html", count: 1, cls: "tag"},
+{tag: "fitting", count: 1, cls: "tag"},
+{tag: "potency", count: 1, cls: "tag"},
+{tag: "simulation", count: 1, cls: "tag"},
+{tag: "humans", count: 1, cls: "tag"},
+{tag: "bayes", count: 1, cls: "tag"},
+{tag: "ligand-based", count: 1, cls: "tag"},
+{tag: "nanomaterial", count: 1, cls: "tag"},
+{tag: "likeliness", count: 1, cls: "tag"},
+{tag: "side", count: 1, cls: "tag"},
+{tag: "arsenic", count: 1, cls: "tag"},
+{tag: "toxbank", count: 1, cls: "tag"},
+{tag: "handbook", count: 1, cls: "tag"},
+{tag: "bonds", count: 1, cls: "tag"},
+{tag: "pharmaceutical", count: 1, cls: "tag"},
+{tag: "retention", count: 1, cls: "tag"},
+{tag: "chembioinformatics", count: 1, cls: "tag"},
+{tag: "chromatin_looping", count: 1, cls: "tag"},
+{tag: "molfile", count: 1, cls: "tag"},
+{tag: "swat4ls2009", count: 1, cls: "tag"},
+{tag: "proteogenomics", count: 1, cls: "tag"},
+{tag: "interface", count: 1, cls: "tag"},
+{tag: "working", count: 1, cls: "tag"},
+{tag: "vector", count: 1, cls: "tag"},
+{tag: "stores", count: 1, cls: "tag"},
+{tag: "software", count: 1, cls: "tag"},
+{tag: "social", count: 1, cls: "tag"},
+{tag: "bibliography", count: 1, cls: "tag"},
+{tag: "residence_time", count: 1, cls: "tag"},
+{tag: "ethane", count: 1, cls: "tag"},
+{tag: "rss", count: 1, cls: "tag"},
+{tag: "correlation", count: 1, cls: "tag"},
+{tag: "how", count: 1, cls: "tag"},
+{tag: "quasicrystals", count: 1, cls: "tag"},
+{tag: "bootstrepping", count: 1, cls: "tag"},
+{tag: "clojure", count: 1, cls: "tag"},
+{tag: "computer", count: 1, cls: "tag"},
+{tag: "user", count: 1, cls: "tag"},
+{tag: "db", count: 1, cls: "tag"},
+{tag: "literature", count: 1, cls: "tag"},
+{tag: "isatab", count: 1, cls: "tag"},
+{tag: "conferencing", count: 1, cls: "tag"},
+{tag: "notation3", count: 1, cls: "tag"},
+{tag: "tanimoto", count: 1, cls: "tag"},
+{tag: "testing", count: 1, cls: "tag"},
+{tag: "curation", count: 1, cls: "tag"},
+{tag: "chromatography", count: 1, cls: "tag"},
+{tag: "binbase", count: 1, cls: "tag"},
+{tag: "support", count: 1, cls: "tag"},
+{tag: "pedagogical_work", count: 1, cls: "tag"},
+{tag: "problem", count: 1, cls: "tag"},
+{tag: "agents", count: 1, cls: "tag"},
+{tag: "cdk--usespackage--sdg", count: 1, cls: "tag"},
+{tag: "tagging", count: 1, cls: "tag"},
+{tag: "concomitant", count: 1, cls: "tag"},
+{tag: "coordinate", count: 1, cls: "tag"},
+{tag: "identifier", count: 1, cls: "tag"},
+{tag: "t-test", count: 1, cls: "tag"},
+{tag: "tpsa", count: 1, cls: "tag"},
+{tag: "pls", count: 1, cls: "tag"},
+{tag: "pug", count: 1, cls: "tag"},
+{tag: "solutions", count: 1, cls: "tag"},
+{tag: "hypotonic", count: 1, cls: "tag"},
+{tag: "ajax", count: 1, cls: "tag"},
+{tag: "widget", count: 1, cls: "tag"},
+{tag: "sidechain", count: 1, cls: "tag"},
+{tag: "file", count: 1, cls: "tag"},
+{tag: "permeability", count: 1, cls: "tag"},
+{tag: "formal", count: 1, cls: "tag"},
+{tag: "differential", count: 1, cls: "tag"},
+{tag: "length", count: 1, cls: "tag"},
+{tag: "cdk--usesapp-jchempaint", count: 1, cls: "tag"},
+{tag: "hmdb", count: 1, cls: "tag"},
+{tag: "cif", count: 1, cls: "tag"},
+{tag: "microbes", count: 1, cls: "tag"},
+{tag: "fda", count: 1, cls: "tag"},
+{tag: "nist", count: 1, cls: "tag"},
+{tag: "network-biology", count: 1, cls: "tag"},
+{tag: "citeulike", count: 1, cls: "tag"},
+{tag: "chart", count: 1, cls: "tag"},
+{tag: "academic_publishing", count: 1, cls: "tag"},
+{tag: "flip", count: 1, cls: "tag"},
+{tag: "quadruplex", count: 1, cls: "tag"},
+{tag: "cluster", count: 1, cls: "tag"},
+{tag: "surfactant", count: 1, cls: "tag"},
+{tag: "group", count: 1, cls: "tag"},
+{tag: "snp", count: 1, cls: "tag"},
+{tag: "data_mining", count: 1, cls: "tag"},
+{tag: "mri", count: 1, cls: "tag"},
+{tag: "testdata", count: 1, cls: "tag"},
+{tag: "time", count: 1, cls: "tag"},
+{tag: "citation_analysis", count: 1, cls: "tag"},
+{tag: "library", count: 1, cls: "tag"},
+{tag: "monolayer", count: 1, cls: "tag"},
+{tag: "development", count: 1, cls: "tag"},
+{tag: "genome_track", count: 1, cls: "tag"},
+{tag: "sirna", count: 1, cls: "tag"},
+{tag: "linked_data", count: 1, cls: "tag"},
+{tag: "kids-doing-science", count: 1, cls: "tag"},
+{tag: "nanoqsar", count: 1, cls: "tag"},
+{tag: "crossvalidation", count: 1, cls: "tag"},
+{tag: "rna-seq", count: 1, cls: "tag"},
+{tag: "toxtree", count: 1, cls: "tag"},
+{tag: "phosphorylation", count: 1, cls: "tag"},
+{tag: "http--wwwsciencedirectcom-science-article-pii-s0960982214006770", count: 1, cls: "tag"},
+{tag: "vamas", count: 1, cls: "tag"},
+{tag: "api", count: 1, cls: "tag"},
+{tag: "hcls", count: 1, cls: "tag"},
+{tag: "irwin", count: 1, cls: "tag"},
+{tag: "polymer", count: 1, cls: "tag"},
+{tag: "programming_skills", count: 1, cls: "tag"},
+{tag: "volume", count: 1, cls: "tag"},
+{tag: "hydroxonium", count: 1, cls: "tag"},
+{tag: "grails", count: 1, cls: "tag"},
+{tag: "online", count: 1, cls: "tag"},
+{tag: "server", count: 1, cls: "tag"},
+{tag: "pharmacogenomics", count: 1, cls: "tag"},
+{tag: "normalisation", count: 1, cls: "tag"},
+{tag: "nanomedicine", count: 1, cls: "tag"},
+{tag: "ms", count: 1, cls: "tag"},
+{tag: "chemogenomics", count: 1, cls: "tag"},
+{tag: "theory", count: 1, cls: "tag"},
+{tag: "svr", count: 1, cls: "tag"},
+{tag: "mashup", count: 1, cls: "tag"},
+{tag: "publising", count: 1, cls: "tag"},
+{tag: "spreadsheet", count: 1, cls: "tag"},
+{tag: "licensefreebsd", count: 1, cls: "tag"},
+{tag: "free_open_source", count: 1, cls: "tag"},
+{tag: "entrepreneurship", count: 1, cls: "tag"},
+{tag: "jrc", count: 1, cls: "tag"},
+{tag: "muscle", count: 1, cls: "tag"},
+{tag: "journal", count: 1, cls: "tag"},
+{tag: "tool", count: 1, cls: "tag"},
+{tag: "geneprotein", count: 1, cls: "tag"},
+{tag: "iccs2014", count: 1, cls: "tag"},
+{tag: "go", count: 1, cls: "tag"},
+{tag: "oncology", count: 1, cls: "tag"},
+{tag: "bio2rdf", count: 1, cls: "tag"},
+{tag: "self-organizing-maps", count: 1, cls: "tag"},
+{tag: "molecular_graphics", count: 1, cls: "tag"},
+{tag: "pains", count: 1, cls: "tag"},
+{tag: "dutch", count: 1, cls: "tag"},
+{tag: "github", count: 1, cls: "tag"},
+{tag: "eye", count: 1, cls: "tag"},
+{tag: "editor", count: 1, cls: "tag"},
+{tag: "gene-ontology", count: 1, cls: "tag"},
+{tag: "grid", count: 1, cls: "tag"},
+{tag: "scientific", count: 1, cls: "tag"},
+{tag: "mlr", count: 1, cls: "tag"},
+{tag: "gcms", count: 1, cls: "tag"},
+{tag: "curve", count: 1, cls: "tag"},
+{tag: "wd4r", count: 1, cls: "tag"},
+{tag: "cdk--usespackage--iupac_parser", count: 1, cls: "tag"},
+{tag: "fingerprints", count: 1, cls: "tag"},
+{tag: "iq", count: 1, cls: "tag"},
+{tag: "genome", count: 1, cls: "tag"},
+{tag: "carbohydrate", count: 1, cls: "tag"},
+{tag: "sas", count: 1, cls: "tag"},
+{tag: "format", count: 1, cls: "tag"},
+{tag: "xmpp", count: 1, cls: "tag"},
+{tag: "reproducibility", count: 1, cls: "tag"},
+{tag: "shape", count: 1, cls: "tag"},
+{tag: "sari", count: 1, cls: "tag"},
+{tag: "jurkat", count: 1, cls: "tag"},
+{tag: "hybrid", count: 1, cls: "tag"},
+{tag: "size", count: 1, cls: "tag"},
+{tag: "n-triples", count: 1, cls: "tag"},
+{tag: "phosphatase", count: 1, cls: "tag"},
+{tag: "shannon", count: 1, cls: "tag"},
+{tag: "diabetes", count: 1, cls: "tag"},
+{tag: "framework", count: 1, cls: "tag"},
+{tag: "alginate", count: 1, cls: "tag"},
+{tag: "http", count: 1, cls: "tag"},
+{tag: "cdk--usespackage--ringsearch", count: 1, cls: "tag"},
+{tag: "molecule", count: 1, cls: "tag"},
+{tag: "mismatch", count: 1, cls: "tag"},
+{tag: "copernicum", count: 1, cls: "tag"},
+{tag: "svm", count: 1, cls: "tag"},
+{tag: "chirality", count: 1, cls: "tag"},
+{tag: "citotoxicity", count: 1, cls: "tag"},
+{tag: "best", count: 1, cls: "tag"},
+{tag: "effects", count: 1, cls: "tag"},
+{tag: "aminoacid", count: 1, cls: "tag"},
+{tag: "poisons", count: 1, cls: "tag"},
+{tag: "kit", count: 1, cls: "tag"},
+{tag: "encode", count: 1, cls: "tag"},
+{tag: "mol2", count: 1, cls: "tag"},
+{tag: "activitycliff", count: 1, cls: "tag"},
+{tag: "oxygen", count: 1, cls: "tag"},
+{tag: "viewer", count: 1, cls: "tag"},
+{tag: "computing", count: 1, cls: "tag"},
+{tag: "error", count: 1, cls: "tag"},
+{tag: "olympic_games", count: 1, cls: "tag"},
+{tag: "natural-product", count: 1, cls: "tag"},
+{tag: "bioactivity", count: 1, cls: "tag"},
+{tag: "adme", count: 1, cls: "tag"},
+{tag: "heatmap", count: 1, cls: "tag"},
+{tag: "landscape", count: 1, cls: "tag"},
+{tag: "jena", count: 1, cls: "tag"},
+{tag: "chemobioinformatics", count: 1, cls: "tag"},
+{tag: "affinity", count: 1, cls: "tag"},
+{tag: "deuterated_drugs", count: 1, cls: "tag"},
+{tag: "services", count: 1, cls: "tag"},
+{tag: "ligand", count: 1, cls: "tag"},
+{tag: "novel", count: 1, cls: "tag"},
+{tag: "polymorphism", count: 1, cls: "tag"},
+{tag: "gaussian", count: 1, cls: "tag"},
+{tag: "interoperability", count: 1, cls: "tag"},
+{tag: "pharmacophore", count: 1, cls: "tag"},
+{tag: "transcriptomics", count: 1, cls: "tag"},
+{tag: "codata", count: 1, cls: "tag"},
+{tag: "transfection", count: 1, cls: "tag"},
+{tag: "oxfordadmet2010", count: 1, cls: "tag"},
+{tag: "mdl", count: 1, cls: "tag"},
+{tag: "openbabel", count: 1, cls: "tag"},
+{tag: "does-not-use-the-cdk", count: 1, cls: "tag"},
+{tag: "quantification", count: 1, cls: "tag"},
+{tag: "staffpaper", count: 1, cls: "tag"},
+{tag: "substructure_mining", count: 1, cls: "tag"},
+{tag: "hiv", count: 1, cls: "tag"},
+{tag: "bridgedb", count: 1, cls: "tag"},
+{tag: "nanosafety", count: 1, cls: "tag"},
+{tag: "wedge", count: 1, cls: "tag"},
+{tag: "oscar4", count: 1, cls: "tag"},
+{tag: "eu_nanosafety_cluster_publications", count: 1, cls: "tag"},
+{tag: "thesaurus", count: 1, cls: "tag"},
+{tag: "unit", count: 1, cls: "tag"},
+{tag: "bsl", count: 1, cls: "tag"},
+{tag: "hepatocyte", count: 1, cls: "tag"},
+{tag: "access", count: 1, cls: "tag"},
+{tag: "students", count: 1, cls: "tag"},
+{tag: "lingo", count: 1, cls: "tag"},
+{tag: "cheminformatic", count: 1, cls: "tag"},
+{tag: "licenseapache", count: 1, cls: "tag"},
+{tag: "nih", count: 1, cls: "tag"},
+{tag: "supramolecular", count: 1, cls: "tag"},
+{tag: "correlation_coefficient", count: 1, cls: "tag"},
+{tag: "lithium", count: 1, cls: "tag"},
+{tag: "chemical_databases", count: 1, cls: "tag"},
+{tag: "foaf", count: 1, cls: "tag"},
+{tag: "silver", count: 1, cls: "tag"},
+{tag: "standardised", count: 1, cls: "tag"},
+{tag: "sensitivity", count: 1, cls: "tag"},
+{tag: "kuhn2008", count: 1, cls: "tag"},
+{tag: "tissue-specific", count: 1, cls: "tag"},
+{tag: "elements", count: 1, cls: "tag"},
+{tag: "whatif", count: 1, cls: "tag"},
+{tag: "universe", count: 1, cls: "tag"},
+{tag: "gut", count: 1, cls: "tag"},
+{tag: "112", count: 1, cls: "tag"},
+{tag: "paraffin", count: 1, cls: "tag"},
+{tag: "computation", count: 1, cls: "tag"},
+{tag: "polymorphs", count: 1, cls: "tag"},
+{tag: "acsnola", count: 1, cls: "tag"},
+{tag: "variation", count: 1, cls: "tag"},
+{tag: "fish", count: 1, cls: "tag"},
+{tag: "uds", count: 1, cls: "tag"},
+{tag: "recommendation", count: 1, cls: "tag"},
+{tag: "ochem", count: 1, cls: "tag"},
+{tag: "nanoinformatics", count: 1, cls: "tag"},
+{tag: "smartcyp", count: 1, cls: "tag"},
+{tag: "cdk--usepackage--", count: 1, cls: "tag"},
+{tag: "safe-by-design", count: 1, cls: "tag"},
+{tag: "cryoprotective", count: 1, cls: "tag"},
+{tag: "z-matrix", count: 1, cls: "tag"},
+{tag: "epigenomics", count: 1, cls: "tag"},
+{tag: "firstglance", count: 1, cls: "tag"},
+{tag: "text-mining", count: 1, cls: "tag"},
+{tag: "protein-protein-interactions", count: 1, cls: "tag"},
+{tag: "jc150105", count: 1, cls: "tag"},
+{tag: "molecular_chemometrics", count: 1, cls: "tag"},
+{tag: "drug_targets", count: 1, cls: "tag"},
+{tag: "rcdk", count: 1, cls: "tag"},
+{tag: "consistency", count: 1, cls: "tag"},
+{tag: "sybyl", count: 1, cls: "tag"},
+{tag: "triple", count: 1, cls: "tag"},
+{tag: "cuda", count: 1, cls: "tag"},
+{tag: "anova", count: 1, cls: "tag"},
+{tag: "pathvisio", count: 1, cls: "tag"},
+{tag: "collaboration", count: 1, cls: "tag"},
+{tag: "cheminf", count: 1, cls: "tag"},
+{tag: "effect", count: 1, cls: "tag"},
+{tag: "biopax", count: 1, cls: "tag"},
+{tag: "electronic-lab-notebook", count: 1, cls: "tag"},
+{tag: "manova", count: 1, cls: "tag"},
+{tag: "chromosome_domains", count: 1, cls: "tag"},
+{tag: "levarage", count: 1, cls: "tag"},
+{tag: "fluxomics", count: 1, cls: "tag"},
+{tag: "openscience", count: 1, cls: "tag"},
+{tag: "ribsome", count: 1, cls: "tag"},
+{tag: "video", count: 1, cls: "tag"},
+{tag: "hiv_protease", count: 1, cls: "tag"},
+{tag: "design", count: 1, cls: "tag"},
+{tag: "choose", count: 1, cls: "tag"},
+{tag: "personal", count: 1, cls: "tag"},
+{tag: "oecd", count: 1, cls: "tag"},
+{tag: "signal", count: 1, cls: "tag"},
+{tag: "polymorph", count: 1, cls: "tag"},
+{tag: "whatcheck", count: 1, cls: "tag"},
+{tag: "julien", count: 1, cls: "tag"},
+{tag: "biological", count: 1, cls: "tag"},
+{tag: "virtual", count: 1, cls: "tag"},
+{tag: "system", count: 1, cls: "tag"},
+{tag: "hyperlinks", count: 1, cls: "tag"},
+{tag: "alignment", count: 1, cls: "tag"},
+{tag: "biojava", count: 1, cls: "tag"},
+{tag: "userscripts", count: 1, cls: "tag"},
+{tag: "ssom", count: 1, cls: "tag"},
+{tag: "application_domain", count: 1, cls: "tag"},
+{tag: "macie", count: 1, cls: "tag"},
+{tag: "cdk--usespackage--fragment", count: 1, cls: "tag"},
+{tag: "purchasable", count: 1, cls: "tag"},
+{tag: "regulatory_networks", count: 1, cls: "tag"},
+{tag: "structures", count: 1, cls: "tag"},
+{tag: "network_analysis", count: 1, cls: "tag"},
+{tag: "scientometrics", count: 1, cls: "tag"},
+{tag: "photosynthesis", count: 1, cls: "tag"},
+{tag: "java_applications", count: 1, cls: "tag"},
+{tag: "sssr", count: 1, cls: "tag"},
+{tag: "taggin", count: 1, cls: "tag"},
+{tag: "semiempirical", count: 1, cls: "tag"},
+{tag: "nrnb", count: 1, cls: "tag"},
+{tag: "assessment", count: 1, cls: "tag"},
+{tag: "no-access", count: 1, cls: "tag"},
+{tag: "memm", count: 1, cls: "tag"},
+{tag: "genetic", count: 1, cls: "tag"},
+{tag: "toprint", count: 1, cls: "tag"},
+{tag: "membrane", count: 1, cls: "tag"},
+{tag: "parasites", count: 1, cls: "tag"},
+{tag: "theses", count: 1, cls: "tag"},
+{tag: "information", count: 1, cls: "tag"},
+{tag: "sider", count: 1, cls: "tag"},
+{tag: "rocr", count: 1, cls: "tag"},
+{tag: "to", count: 1, cls: "tag"},
+{tag: "registry", count: 1, cls: "tag"},
+{tag: "in_vivo", count: 1, cls: "tag"},
+{tag: "rdfa", count: 1, cls: "tag"},
+{tag: "conformer", count: 1, cls: "tag"},
+{tag: "systems_biology", count: 1, cls: "tag"},
+{tag: "virus", count: 1, cls: "tag"},
+{tag: "seurat-1", count: 1, cls: "tag"},
+{tag: "mapping", count: 1, cls: "tag"},
+{tag: "entropy", count: 1, cls: "tag"},
+{tag: "bonding", count: 1, cls: "tag"},
+{tag: "cells", count: 1, cls: "tag"},
+{tag: "indexing", count: 1, cls: "tag"},
+{tag: "canonicalization", count: 1, cls: "tag"},
+{tag: "rrdf", count: 1, cls: "tag"}
+	];
+	</script>
+	
+
+</div>
+</div>
+
+<div style="display:none">
+	<form id="deleteform" action="/web/20170423181248/http://www.citeulike.org/delete" method="post" style="display:none">
+	<div>
+	<input type="hidden" name="user_article_id" value="805678"/>
+	<input type="hidden" name="from" value="/user/egonw"/>
+	</div>
+	</form>
+</div>
+
+
+
+<div id="attachment_public_dialog" style="display:none" title="Attachment privacy">
+	By clicking "OK" you acknowledge that you have the right to distribute this file.
+</div>
+
+
+<div style="display:none">
+	<form id="yahooform" action="/web/20170423181248/http://www.citeulike.org/invalid">
+		<div>
+		<input type="text" name="appid" value="66ZibHHV34HmhPKjhYiT2870Hn9tcLQD9KbZ.VgwFI47gVe286SogncUuiBgDn6ojnBTKQ--"/>
+		<input type="text" name="output" value="json"/>
+		<input type="text" name="context" value="Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics.. The Chemistry Development Kit (CDK) provides methods for common tasks in molecular informatics, including 2D and 3D rendering of chemical structures, I/O routines, SMILES parsing and generation, ring searches, isomorphism checking, structure diagram generation, etc. Implemented in Java, it is used both for server-side computational services, possibly equipped with a web interface, as well as for applications and client-side applets. This article introduces the CDK's new QSAR capabilities and the recently introduced interface to statistical software."/>
+		</div>
+	</form>
+</div>
+
+<form id="showtexform" action="/web/20170423181248/http://www.citeulike.org/do_jsmath_popup" method="post" target="jsmath_popup" style="display:none">
+	<div>
+	<input type="hidden" name="abstract" value="The Chemistry Development Kit (CDK) provides methods for common tasks in molecular informatics, including 2D and 3D rendering of chemical structures, I/O routines, SMILES parsing and generation, ring searches, isomorphism checking, structure diagram generation, etc. Implemented in Java, it is used both for server-side computational services, possibly equipped with a web interface, as well as for applications and client-side applets. This article introduces the CDK's new QSAR capabilities and the recently introduced interface to statistical software."/>
+	<input type="hidden" name="title" value="Recent developments of the chemistry development kit (CDK) - an open-source java library for chemo- and bioinformatics."/>
+	</div>
+</form>
+
+<div style="display:none" id="annotate">
+	<div id="annotate_content">
+	</div>
+</div>
+
+
+<div style="text-align:center">
+	<a href="/web/20170423181248/http://www.citeulike.org/privacy">Privacy Statement</a> | <a href="/web/20170423181248/http://www.citeulike.org/terms">Terms &amp; Conditions</a>
+</div>
+<div style="display:none">
+<!-- google_ad_section_start -->
+CiteULike organises scholarly (or academic) papers or literature and provides bibliographic
+(which means it makes bibliographies) for universities and higher education establishments.
+It helps undergraduates and postgraduates. People studying for PhDs or in postdoctoral (postdoc) positions.
+The service is similar in scope to EndNote or RefWorks or any other reference manager
+like BibTeX, but it is a social bookmarking service for scientists and humanities researchers.
+<!-- google_ad_section_end -->
+</div>
+
+	</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 18:12:48 Apr 23, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:33:03 Nov 26, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 99.724
+  exclusion.robots: 0.187
+  exclusion.robots.policy: 0.18
+  RedisCDXSource: 0.706
+  esindex: 0.007
+  LoadShardBlock: 82.128 (3)
+  PetaboxLoader3.datanode: 77.687 (4)
+  CDXLines.iter: 14.556 (3)
+  load_resource: 151.794
+  PetaboxLoader3.resolve: 101.757
+-->
