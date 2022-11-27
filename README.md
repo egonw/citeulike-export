@@ -30,9 +30,21 @@ groovy extractCITO.groovy | tee cul.ttl | rapper -i turtle -t -q - . > /dev/null
 
 ## Wikidata
 
+In order to make QuickStatements, we need to know the Wikidata items matching CiteUlike
+articles. This is done with DOI matching which we got from the CiteULike HTML pages.
+
+
 ```shell
 groovy createWikidataQuery.groovy | tee wikidata.rq
 curl -H "Accept: text/tab-separated-values" --data-urlencode query@wikidata.rq https://query.wikidata.org/bigdata/namespace/wdq/sparql -o wikidata.tsv
+groovy extractWikidata.groovy | tee wikidata.ttl | rapper -i turtle -t -q - . > /dev/null
 ```
 
+# Creating the QuickStatements
 
+The three Turtle files together provide all the information we need. A SPARQL query
+integrates the data and allows us to generate QuickStatements with this command:
+
+```shell
+groovy createQuickstatements.groovy | tee wikidata.qs
+```
