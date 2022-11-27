@@ -9,7 +9,7 @@ file.eachLine { line ->
     line = line.replace("    citeulike-article-id = {", "").replace("},", "")
     art = "citeulike:${line}"
   } else if (line.contains("doi =")) {
-    line = line.replace("    doi = {", "").replace("},", "")
+    line = line.replace("    doi = {", "").replace("},", "").toUpperCase()
     println "${art} wdt:P356 \"${line}\" ."
     art = ""
   }
