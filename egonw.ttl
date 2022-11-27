@@ -1,5 +1,5 @@
 prefix citeulike: <http://www.citeulike.org/article/>
-prefix wdt: <http://www.wikidata.org/entity/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
 
 citeulike:12044356 wdt:P356 "10.1107/s0021889812006462" .
 citeulike:14510269 wdt:P356 "10.1021/acs.jcim.7b00425" .

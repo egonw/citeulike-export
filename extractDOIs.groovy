@@ -1,5 +1,5 @@
 println "prefix citeulike: <http://www.citeulike.org/article/>"
-println "prefix wdt: <http://www.wikidata.org/entity/>"
+println "prefix wdt: <http://www.wikidata.org/prop/direct/>"
 println ""
 
 file = new File("egonw.bib")

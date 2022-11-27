@@ -20,7 +20,6 @@ To extract information from the BibTeX files and CiteULike HTML pages two Groovy
 scripts are used, of which the output can be validated in the same oneliner:
 
 ```shell
+groovy extractDOIs.groovy | tee egonw.ttl | rapper -i turtle -t -q - . > /dev/null
 groovy extractCITO.groovy | tee cul.ttl | rapper -i turtle -t -q - . > /dev/null
 ```
-
-The `extractCITO.groovy` script needs to be adapted for each HTML page.
